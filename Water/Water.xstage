@@ -112,6 +112,8 @@
     <dwg name="16"/>
     <dwg name="17"/>
     <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
    </drawings>
   </element>
  </elements>
@@ -132,7 +134,7 @@
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-8" val="1" id="1"/>
-     <elementSeq exposures="9-35" val="2" id="1"/>
+     <elementSeq exposures="9-39" val="2" id="1"/>
     </column>
     <column type="0" name="splash" displayOrder="2" width="100" anonymous="true" id="3">
      <elementSeq exposures="9" val="13" id="3"/>
@@ -222,6 +224,8 @@
      <elementSeq exposures="33" val="16" id="8"/>
      <elementSeq exposures="34" val="17" id="8"/>
      <elementSeq exposures="35" val="18" id="8"/>
+     <elementSeq exposures="36" val="19" id="8"/>
+     <elementSeq exposures="37" val="20" id="8"/>
     </column>
    </columns>
    <options>
