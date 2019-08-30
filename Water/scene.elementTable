@@ -5,4 +5,5 @@
  <element id="4" elementName="ball" elementFolder="ball" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="5" elementName="secondarysplash" elementFolder="secondarysplash" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="7" elementName="SecondSplash2" elementFolder="SecondSplash2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="8" elementName="secondspalsh3" elementFolder="secondspalsh3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
