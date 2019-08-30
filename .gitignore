@@ -15,6 +15,7 @@ Build/
 *.booproj
 *.spp
 *.info
+*.aep
 
 # Unity3D generated meta files
 *.pidb.meta
