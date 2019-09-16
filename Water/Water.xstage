@@ -220,11 +220,11 @@
  <scenes>
   <scene name="Top" id="09c73c5447a007eb" nbframes="39">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-8" val="1" id="1"/>
      <elementSeq exposures="9-39" val="2" id="1"/>
     </column>
-    <column type="0" name="splash" display="false" displayOrder="2" width="100" anonymous="true" id="3">
+    <column type="0" name="splash" displayOrder="2" width="100" anonymous="true" id="3">
      <elementSeq exposures="9" val="13" id="3"/>
      <elementSeq exposures="10" val="8" id="3"/>
      <elementSeq exposures="11" val="7" id="3"/>
@@ -253,7 +253,7 @@
      <elementSeq exposures="8" val="6" id="4"/>
      <elementSeq exposures="9" val="7" id="4"/>
     </column>
-    <column type="0" name="secondspalsh3" display="false" displayOrder="5" width="100" anonymous="true" id="8">
+    <column type="0" name="secondspalsh3" displayOrder="5" width="100" anonymous="true" id="8">
      <elementSeq exposures="18" val="1" id="8"/>
      <elementSeq exposures="19" val="2" id="8"/>
      <elementSeq exposures="20" val="3" id="8"/>
@@ -275,7 +275,7 @@
      <elementSeq exposures="36" val="19" id="8"/>
      <elementSeq exposures="37" val="20" id="8"/>
     </column>
-    <column type="0" name="mainripple" display="false" displayOrder="7" width="100" anonymous="true" id="12">
+    <column type="0" name="mainripple" displayOrder="7" width="100" anonymous="true" id="12">
      <elementSeq exposures="12" val="19" id="12"/>
      <elementSeq exposures="13" val="18" id="12"/>
      <elementSeq exposures="14" val="17" id="12"/>
@@ -299,7 +299,7 @@
      <elementSeq exposures="32" val="21" id="12"/>
      <elementSeq exposures="33" val="22" id="12"/>
     </column>
-    <column type="0" name="secondaryripples" display="false" displayOrder="8" width="100" anonymous="true" id="13">
+    <column type="0" name="secondaryripples" displayOrder="8" width="100" anonymous="true" id="13">
      <elementSeq exposures="20" val="1" id="13"/>
      <elementSeq exposures="21" val="2" id="13"/>
      <elementSeq exposures="22" val="3" id="13"/>
@@ -312,7 +312,7 @@
      <elementSeq exposures="29" val="10" id="13"/>
      <elementSeq exposures="30" val="11" id="13"/>
     </column>
-    <column type="0" name="breakingthewalls" display="false" displayOrder="6" width="100" anonymous="true" id="14">
+    <column type="0" name="breakingthewalls" displayOrder="6" width="100" anonymous="true" id="14">
      <elementSeq exposures="11" val="16" id="14"/>
      <elementSeq exposures="12" val="15" id="14"/>
      <elementSeq exposures="13" val="14" id="14"/>
