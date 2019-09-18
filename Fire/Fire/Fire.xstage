@@ -53,8 +53,42 @@
     <dwg name="43"/>
     <dwg name="44"/>
     <dwg name="45"/>
+    <dwg name="46"/>
+    <dwg name="47"/>
+    <dwg name="48"/>
+    <dwg name="49"/>
+    <dwg name="50"/>
+    <dwg name="51"/>
+    <dwg name="52"/>
+    <dwg name="53"/>
+    <dwg name="54"/>
+    <dwg name="55"/>
+    <dwg name="56"/>
+    <dwg name="57"/>
+    <dwg name="58"/>
+    <dwg name="59"/>
+    <dwg name="60"/>
+    <dwg name="61"/>
+    <dwg name="62"/>
+    <dwg name="63"/>
+    <dwg name="64"/>
+    <dwg name="65"/>
+    <dwg name="66"/>
+    <dwg name="67"/>
+    <dwg name="68"/>
+    <dwg name="69"/>
+    <dwg name="70"/>
+    <dwg name="71"/>
+    <dwg name="72"/>
+    <dwg name="73"/>
+    <dwg name="74"/>
+    <dwg name="75"/>
+    <dwg name="76"/>
+    <dwg name="77"/>
+    <dwg name="78"/>
    </drawings>
   </element>
+  <element id="6" elementName="innerflame" elementFolder="innerflame" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -69,12 +103,21 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="09cc3654ed8050d8" nbframes="41">
+  <scene name="Top" id="09cc3654ed8050d8" nbframes="59">
    <columns>
-    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
-     <elementSeq exposures="1-41" val="1" id="1"/>
+    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
+     <elementSeq exposures="1-68" val="1" id="1"/>
     </column>
-    <column type="0" name="mainshape" displayOrder="2" width="100" anonymous="true" id="3">
+    <column type="0" name="mainshape" displayOrder="3" width="100" anonymous="true" id="3">
+     <elementSeq exposures="3" val="56" id="3"/>
+     <elementSeq exposures="4" val="57" id="3"/>
+     <elementSeq exposures="5" val="58" id="3"/>
+     <elementSeq exposures="6" val="59" id="3"/>
+     <elementSeq exposures="7" val="60" id="3"/>
+     <elementSeq exposures="8" val="61" id="3"/>
+     <elementSeq exposures="9" val="62" id="3"/>
+     <elementSeq exposures="10" val="63" id="3"/>
+     <elementSeq exposures="11" val="64" id="3"/>
      <elementSeq exposures="12" val="1" id="3"/>
      <elementSeq exposures="13" val="2" id="3"/>
      <elementSeq exposures="14" val="3" id="3"/>
@@ -105,7 +148,19 @@
      <elementSeq exposures="39" val="28" id="3"/>
      <elementSeq exposures="40" val="29" id="3"/>
      <elementSeq exposures="41" val="39" id="3"/>
+     <elementSeq exposures="42" val="68" id="3"/>
+     <elementSeq exposures="43" val="69" id="3"/>
+     <elementSeq exposures="44" val="70" id="3"/>
+     <elementSeq exposures="45" val="71" id="3"/>
+     <elementSeq exposures="46" val="72" id="3"/>
+     <elementSeq exposures="47" val="73" id="3"/>
+     <elementSeq exposures="48" val="74" id="3"/>
+     <elementSeq exposures="49" val="75" id="3"/>
+     <elementSeq exposures="50" val="76" id="3"/>
+     <elementSeq exposures="51" val="77" id="3"/>
+     <elementSeq exposures="52" val="78" id="3"/>
     </column>
+    <column type="0" name="innerflame" displayOrder="2" width="100" anonymous="true" id="6"/>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -168,6 +223,7 @@
      </module>
      <module type="READ" name="ref" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -227,6 +283,110 @@
        <drawing>
         <elementMode val="true"/>
         <element col="Drawing">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
+     <module type="READ" name="innerflame" pos="0,0,0" publishUnderTab="innerflame">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="innerflame">
          <layer/>
         </element>
         <customName>
@@ -378,7 +538,8 @@
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="ref" in="Composite" inport="1"/>
+     <link out="ref" in="Composite" inport="2"/>
+     <link out="innerflame" in="Composite" inport="1"/>
      <link out="mainshape" in="Composite" inport="0"/>
     </linkedlist>
    </rootgroup>
