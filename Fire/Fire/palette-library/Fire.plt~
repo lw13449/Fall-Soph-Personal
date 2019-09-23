@@ -8,6 +8,4 @@ Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
 Gradient firebase                   0x09cc46b52620d2e4 Linear 
 {        0.0 225  81   4 255,
        100.0 225 131   0 255 }
-Gradient "New 0"                    0x09ccb65618178f04 Linear 
-{        0.0 225  81   4 255,
-       100.0 225 131   0 255 }
+Solid    innerflame                 0x09ccb65618178f04 225 164  19 255
