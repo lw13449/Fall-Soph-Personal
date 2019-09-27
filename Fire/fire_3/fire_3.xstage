@@ -6,7 +6,7 @@
     <dwg name="1"/>
    </drawings>
   </element>
-  <element id="3" elementName="inner" elementFolder="inner" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="3" elementName="bubbles" elementFolder="bubbles" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
@@ -18,6 +18,16 @@
     <dwg name="8"/>
     <dwg name="9"/>
     <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
    </drawings>
   </element>
   <element id="4" elementName="base" elementFolder="base" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -33,6 +43,27 @@
     <dwg name="9"/>
     <dwg name="10"/>
     <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
    </drawings>
   </element>
   <element id="5" elementName="reference" elementFolder="reference" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
@@ -50,12 +81,12 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="09ce7632d4a021e4" nbframes="14">
+  <scene name="Top" id="09ce7632d4a021e4" nbframes="28">
    <columns>
-    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-31" val="1" id="1"/>
     </column>
-    <column type="0" name="inner" displayOrder="2" width="100" anonymous="true" id="3">
+    <column type="0" name="inner" display="false" displayOrder="2" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-4" val="1" id="3"/>
      <elementSeq exposures="5" val="2" id="3"/>
      <elementSeq exposures="6" val="3" id="3"/>
@@ -66,11 +97,42 @@
      <elementSeq exposures="11" val="8" id="3"/>
      <elementSeq exposures="12" val="9" id="3"/>
      <elementSeq exposures="13" val="10" id="3"/>
+     <elementSeq exposures="14" val="11" id="3"/>
+     <elementSeq exposures="15" val="12" id="3"/>
+     <elementSeq exposures="16" val="13" id="3"/>
+     <elementSeq exposures="17" val="14" id="3"/>
+     <elementSeq exposures="18" val="15" id="3"/>
+     <elementSeq exposures="19" val="16" id="3"/>
+     <elementSeq exposures="20" val="17" id="3"/>
+     <elementSeq exposures="21" val="18" id="3"/>
+     <elementSeq exposures="22" val="19" id="3"/>
+     <elementSeq exposures="23" val="20" id="3"/>
     </column>
     <column type="0" name="base" displayOrder="3" width="100" anonymous="true" id="4">
      <elementSeq exposures="5" val="1" id="4"/>
      <elementSeq exposures="6" val="2" id="4"/>
      <elementSeq exposures="7" val="3" id="4"/>
+     <elementSeq exposures="8" val="12" id="4"/>
+     <elementSeq exposures="9" val="13" id="4"/>
+     <elementSeq exposures="10" val="14" id="4"/>
+     <elementSeq exposures="11" val="15" id="4"/>
+     <elementSeq exposures="12" val="16" id="4"/>
+     <elementSeq exposures="13" val="17" id="4"/>
+     <elementSeq exposures="14" val="18" id="4"/>
+     <elementSeq exposures="15" val="19" id="4"/>
+     <elementSeq exposures="16" val="20" id="4"/>
+     <elementSeq exposures="17" val="21" id="4"/>
+     <elementSeq exposures="18" val="22" id="4"/>
+     <elementSeq exposures="19" val="23" id="4"/>
+     <elementSeq exposures="20" val="24" id="4"/>
+     <elementSeq exposures="21" val="25" id="4"/>
+     <elementSeq exposures="22" val="26" id="4"/>
+     <elementSeq exposures="23" val="27" id="4"/>
+     <elementSeq exposures="24" val="28" id="4"/>
+     <elementSeq exposures="25" val="29" id="4"/>
+     <elementSeq exposures="26" val="30" id="4"/>
+     <elementSeq exposures="27" val="31" id="4"/>
+     <elementSeq exposures="28" val="32" id="4"/>
     </column>
     <column type="0" name="reference" displayOrder="4" width="100" anonymous="true" id="5"/>
    </columns>
@@ -135,6 +197,7 @@
      </module>
      <module type="READ" name="ref" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -237,8 +300,9 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="inner" pos="0,0,0" publishUnderTab="inner">
+     <module type="READ" name="bubbles" pos="0,0,0" publishUnderTab="inner">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -554,7 +618,7 @@
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
      <link out="ref" in="Composite" inport="3"/>
-     <link out="inner" in="Composite" inport="2"/>
+     <link out="bubbles" in="Composite" inport="2"/>
      <link out="base" in="Composite" inport="1"/>
      <link out="reference" in="Composite" inport="0"/>
     </linkedlist>

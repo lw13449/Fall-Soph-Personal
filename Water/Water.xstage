@@ -152,6 +152,8 @@
     <dwg name="16"/>
     <dwg name="17"/>
     <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
    </drawings>
   </element>
   <element id="17" elementName="ripplecolor" elementFolder="ripplecolor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -202,6 +204,18 @@
     <dwg name="18"/>
     <dwg name="19"/>
     <dwg name="20"/>
+   </drawings>
+  </element>
+  <element id="19" elementName="ripplesplashes" elementFolder="ripplesplashes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
    </drawings>
   </element>
  </elements>
@@ -349,6 +363,8 @@
      <elementSeq exposures="24" val="16" id="15"/>
      <elementSeq exposures="25" val="17" id="15"/>
      <elementSeq exposures="26" val="18" id="15"/>
+     <elementSeq exposures="27" val="19" id="15"/>
+     <elementSeq exposures="28" val="20" id="15"/>
     </column>
     <column type="0" name="ripplecolor" displayOrder="9" width="100" anonymous="true" id="17">
      <elementSeq exposures="12" val="19" id="17"/>
@@ -395,6 +411,16 @@
      <elementSeq exposures="35" val="18" id="18"/>
      <elementSeq exposures="36" val="19" id="18"/>
      <elementSeq exposures="37" val="20" id="18"/>
+    </column>
+    <column type="0" name="ripplesplashes" displayOrder="11" width="100" anonymous="true" id="19">
+     <elementSeq exposures="23" val="1" id="19"/>
+     <elementSeq exposures="24" val="2" id="19"/>
+     <elementSeq exposures="25" val="3" id="19"/>
+     <elementSeq exposures="26" val="7" id="19"/>
+     <elementSeq exposures="27" val="4" id="19"/>
+     <elementSeq exposures="28" val="5" id="19"/>
+     <elementSeq exposures="29" val="6" id="19"/>
+     <elementSeq exposures="30" val="8" id="19"/>
     </column>
    </columns>
    <options>
@@ -458,6 +484,7 @@
      </module>
      <module type="READ" name="references" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1502,20 +1529,125 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="READ" name="ripplesplashes" pos="0,0,0" publishUnderTab="ripplesplashes">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ripplesplashes">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="references" in="Composite" inport="9"/>
-     <link out="splash" in="Composite" inport="8"/>
-     <link out="splashreal" in="Composite" inport="7"/>
-     <link out="ball" in="Composite" inport="6"/>
-     <link out="secondspalsh3" in="Composite" inport="5"/>
-     <link out="breakingthewalls" in="Composite" inport="4"/>
-     <link out="mainripple" in="Composite" inport="3"/>
-     <link out="secondaryripples" in="Composite" inport="2"/>
-     <link out="ripplecolor" in="Composite" inport="1"/>
-     <link out="secondsplashcolor" in="Composite" inport="0"/>
+     <link out="references" in="Composite" inport="10"/>
+     <link out="splash" in="Composite" inport="9"/>
+     <link out="splashreal" in="Composite" inport="8"/>
+     <link out="ball" in="Composite" inport="7"/>
+     <link out="secondspalsh3" in="Composite" inport="6"/>
+     <link out="breakingthewalls" in="Composite" inport="5"/>
+     <link out="mainripple" in="Composite" inport="4"/>
+     <link out="secondaryripples" in="Composite" inport="3"/>
+     <link out="ripplecolor" in="Composite" inport="2"/>
+     <link out="secondsplashcolor" in="Composite" inport="1"/>
+     <link out="ripplesplashes" in="Composite" inport="0"/>
     </linkedlist>
    </rootgroup>
   </scene>
