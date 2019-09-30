@@ -11,4 +11,5 @@
  <element id="17" elementName="ripplecolor" elementFolder="ripplecolor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="18" elementName="secondsplashcolor" elementFolder="secondsplashcolor" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="19" elementName="ripplesplashes" elementFolder="ripplesplashes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="20" elementName="background" elementFolder="background" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>

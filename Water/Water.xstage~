@@ -234,7 +234,7 @@
  <scenes>
   <scene name="Top" id="09c73c5447a007eb" nbframes="39">
    <columns>
-    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-8" val="1" id="1"/>
      <elementSeq exposures="9-39" val="2" id="1"/>
     </column>

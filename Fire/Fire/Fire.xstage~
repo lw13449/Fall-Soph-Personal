@@ -152,7 +152,7 @@
  <scenes>
   <scene name="Top" id="09cc3654ed8050d8" nbframes="59">
    <columns>
-    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-68" val="1" id="1"/>
     </column>
     <column type="0" name="mainshape" displayOrder="3" width="100" anonymous="true" id="3">

@@ -11,3 +11,6 @@ Solid    undercoat                  0x09ca7db461501f72   9 169 190 255
 Solid    backsplash                 0x09caf6c41cc138cb 135 181 188 255
 Solid    secondarysplash            0x09caf6c41cc55f77 135 194 203 255
 Solid    backundercoat              0x09caf6c41ccc6c90  17 159 177 255
+Gradient background                 0x09cfb59d11d2ce7b Radial 
+{        0.0 129 214 225 255,
+       100.0   9 169 190 255 }
