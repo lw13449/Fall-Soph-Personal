@@ -91,6 +91,11 @@
      <elementSeq exposures="144-145,148-149" val="16" id="2"/>
      <elementSeq exposures="150-162" val="17" id="2"/>
     </column>
+    <column type="1" name="file_example_WAV_1MG" displayOrder="3" width="100" anonymous="false" disabled="false" videoSync="true" soundLocked="false">
+     <soundSequence startFrame="1" stopFrame="804" name="file_example_WAV_1MG.wav" soundColorIsValid="false" soundColor="#000000FF" clippingTimeStart="0" clippingTimeStop="33.529613494873047">
+      <lipSync showSoundForm="0"/>
+     </soundSequence>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
