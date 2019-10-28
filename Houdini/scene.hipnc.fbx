@@ -10,11 +10,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2019
 		Month: 10
-		Day: 25
-		Hour: 9
-		Minute: 18
-		Second: 53
-		Millisecond: 530
+		Day: 28
+		Hour: 12
+		Minute: 28
+		Second: 20
+		Millisecond: 678
 	}
 	Creator: "FBX SDK/FBX Plugins version 2016.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -30,8 +30,8 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "C:\Users\10803934\Documents\LW10803934\Fall-Soph-Personal\Houdini\2210 Scene.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\10803934\Documents\LW10803934\Fall-Soph-Personal\Houdini\2210 Scene.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\10803934\Documents\LW10803934\Fall-Soph-Personal\Houdini\scene.hipnc"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\10803934\Documents\LW10803934\Fall-Soph-Personal\Houdini\scene.hipnc"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", ""
 			P: "Original|ApplicationName", "KString", "", "", ""
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 65581787136, "", "Scene" {
+	Document: 67621640192, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
