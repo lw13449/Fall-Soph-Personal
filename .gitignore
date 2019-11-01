@@ -17,6 +17,7 @@ Build/
 *.info
 *.aep
 *.avi
+*.spp
 
 # Unity3D generated meta files
 *.pidb.meta
