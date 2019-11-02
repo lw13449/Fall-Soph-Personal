@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: eb5b4485d203ddf41b19cf2635751fce
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banners_etc
+    second: {fileID: 2100000, guid: 577655fb7fc70564aa4d0e676b756349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Battleship_mechs
+    second: {fileID: 2100000, guid: 0f6ccd0853095a34cb8e595692c4a7af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Citadel
+    second: {fileID: 2100000, guid: 919cbc96b28a51444867d7c70f0197d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Citadel_2
+    second: {fileID: 2100000, guid: 7f69018c303d60f41836c21fcca6be95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_Tower
+    second: {fileID: 2100000, guid: 390d271d5f414724d93afebaec54fdb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: City_Turret
+    second: {fileID: 2100000, guid: d29e8b14096fbcd47844b5015684612d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GB_building
+    second: {fileID: 2100000, guid: 46e69d3eafc51544cb4f83e1063d8e20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GB_building_2
+    second: {fileID: 2100000, guid: da9f471d0cb11d745bc56a847c56dcf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gate_Turret
+    second: {fileID: 2100000, guid: 42d8ce9efd2cf9346bd3f54403ada9dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Giant_Gun
+    second: {fileID: 2100000, guid: 41bfc4fcdb9681a4682f9d437f0653f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: High_def_far_rock
+    second: {fileID: 2100000, guid: 72ca92ab1a0f961408be6d85554fd7e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plants
+    second: {fileID: 2100000, guid: 8ca7b328dc0491c47a78f66a7ec335ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: battleship_main
+    second: {fileID: 2100000, guid: e8f48752362fad941913c09a62e183fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: big_platform_2
+    second: {fileID: 2100000, guid: 031d119f2ad54b347b5b7fedbfec603c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blarg_saucer1
+    second: {fileID: 2100000, guid: 2bd819458455fba4fa8762d2090f7627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: city_wall_base
+    second: {fileID: 2100000, guid: 8b5ec422989ce3f459f76af9b586ccab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: far_Plat_2
+    second: {fileID: 2100000, guid: 48ee08eb3a466a344956ea4dc5e84cf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: far_Plat_gunbuilding
+    second: {fileID: 2100000, guid: 15691f00f0ddb35448b8316348a8b391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: far_platforms
+    second: {fileID: 2100000, guid: 789bf593a741dd04cb45f18b0ed9ab79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fencing1
+    second: {fileID: 2100000, guid: e4e85f700753b8f4d99c31fd6801ec64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fplatform_big
+    second: {fileID: 2100000, guid: 26121733436c0f245858a5cc80b33aff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: golden_bolt
+    second: {fileID: 2100000, guid: e04b9b477f5a71d4fa4747f9a48b35cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: magnet_path
+    second: {fileID: 2100000, guid: c958ce86a038eaa4ba43ad14cd0a1a81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main_front_platform
+    second: {fileID: 2100000, guid: 4b7f237e0959e7c4cbd192f99df79f29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: platform_small
+    second: {fileID: 2100000, guid: f2d86083ab9892d4e9d3a83cd846d724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock_front_plat
+    second: {fileID: 2100000, guid: d5f7ac5aa583029458112adb72acf612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock_platforms1
+    second: {fileID: 2100000, guid: 737424e65c0017241ab89a1263866160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower
+    second: {fileID: 2100000, guid: 4bafed8a766f2ce4dab16683eee28936, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
