@@ -1,0 +1,121 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Banners_etc": {
+            "shader": "Main shader"
+        },
+        "Battleship_mechs": {
+            "shader": "Main shader"
+        },
+        "Citadel": {
+            "shader": "Main shader"
+        },
+        "Citadel_2": {
+            "shader": "Main shader"
+        },
+        "City_Tower": {
+            "shader": "Main shader"
+        },
+        "City_Turret": {
+            "shader": "Main shader"
+        },
+        "GB_building": {
+            "shader": "Main shader"
+        },
+        "GB_building_2": {
+            "shader": "Main shader"
+        },
+        "Gate_Turret": {
+            "shader": "Main shader"
+        },
+        "Giant_Gun": {
+            "shader": "Main shader"
+        },
+        "High_def_far_rock": {
+            "shader": "Main shader"
+        },
+        "Plants": {
+            "shader": "Main shader"
+        },
+        "Tower": {
+            "shader": "Main shader"
+        },
+        "battleship_main": {
+            "shader": "Main shader"
+        },
+        "big_platform_2": {
+            "shader": "Main shader"
+        },
+        "blarg_saucer1": {
+            "shader": "Main shader"
+        },
+        "city_wall_base": {
+            "shader": "Main shader"
+        },
+        "far_Plat_2": {
+            "shader": "Main shader"
+        },
+        "far_Plat_gunbuilding": {
+            "shader": "Main shader"
+        },
+        "far_platforms": {
+            "shader": "Main shader"
+        },
+        "fencing1": {
+            "shader": "Main shader"
+        },
+        "fplatform_big": {
+            "shader": "Main shader"
+        },
+        "golden_bolt": {
+            "shader": "Main shader"
+        },
+        "magnet_path": {
+            "shader": "Main shader"
+        },
+        "main_front_platform": {
+            "shader": "Main shader"
+        },
+        "platform_small": {
+            "shader": "Main shader"
+        },
+        "rock_front_plat": {
+            "shader": "Main shader"
+        },
+        "rock_platforms1": {
+            "shader": "Main shader"
+        }
+    }
+}
