@@ -1,11 +1,264 @@
 fileFormatVersion: 2
 guid: fe5fba05b3c91ef458c88ab592b18fa0
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable:
-  - first:
-      74: -203655887218126122
-    second: mixamo.com
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: abs_jt
+    100002: arms
+    100004: chest
+    100006: collarbone
+    100008: Head
+    100010: Hips
+    100012: //RootNode
+    100014: joints
+    100016: l_ankle_jt
+    100018: L_Arm
+    100020: L_Arm1
+    100022: L_backhand
+    100024: l_elbow_jt4
+    100026: L_fingers
+    100028: L_foot
+    100030: l_hip_jt
+    100032: l_knee_jt
+    100034: L_Leg
+    100036: L_leg_ankle
+    100038: L_leg_thigh
+    100040: l_shoulder_jt
+    100042: L_thumb
+    100044: L_thumb_joint
+    100046: L_wrist
+    100048: Lower_Body
+    100050: LowerBody
+    100052: mixamorig:Head
+    100054: mixamorig:HeadTop_End
+    100056: mixamorig:Hips
+    100058: mixamorig:LeftArm
+    100060: mixamorig:LeftFoot
+    100062: mixamorig:LeftForeArm
+    100064: mixamorig:LeftHand
+    100066: mixamorig:LeftLeg
+    100068: mixamorig:LeftShoulder
+    100070: mixamorig:LeftToe_End
+    100072: mixamorig:LeftToeBase
+    100074: mixamorig:LeftUpLeg
+    100076: mixamorig:Neck
+    100078: mixamorig:RightArm
+    100080: mixamorig:RightFoot
+    100082: mixamorig:RightForeArm
+    100084: mixamorig:RightHand
+    100086: mixamorig:RightLeg
+    100088: mixamorig:RightShoulder
+    100090: mixamorig:RightToe_End
+    100092: mixamorig:RightToeBase
+    100094: mixamorig:RightUpLeg
+    100096: mixamorig:Spine
+    100098: mixamorig:Spine1
+    100100: mixamorig:Spine2
+    100102: neck_jt
+    100104: r_ankle_jt
+    100106: R_Arm
+    100108: R_Arm2
+    100110: R_backhand2
+    100112: r_elbow_jt2
+    100114: R_fingers2
+    100116: R_foot2
+    100118: r_hip_jt
+    100120: r_knee_jt
+    100122: r_knuckles_jt2
+    100124: r_knuckles_jt4
+    100126: R_Leg
+    100128: R_leg_ankle2
+    100130: R_leg_thigh2
+    100132: r_shoulder_jt
+    100134: R_thumb2
+    100136: R_thumb_joint2
+    100138: r_thumb_jt3
+    100140: r_thumb_jt5
+    100142: R_wrist2
+    100144: r_wrist_jt3
+    100146: r_wrist_jt5
+    100148: Ratchet
+    100150: ribs_jt
+    100152: sternum_jt
+    100154: stomach
+    100156: Tail
+    100158: tail
+    100160: Torso
+    100162: Upper_Body
+    100164: UpperBody
+    400000: abs_jt
+    400002: arms
+    400004: chest
+    400006: collarbone
+    400008: Head
+    400010: Hips
+    400012: //RootNode
+    400014: joints
+    400016: l_ankle_jt
+    400018: L_Arm
+    400020: L_Arm1
+    400022: L_backhand
+    400024: l_elbow_jt4
+    400026: L_fingers
+    400028: L_foot
+    400030: l_hip_jt
+    400032: l_knee_jt
+    400034: L_Leg
+    400036: L_leg_ankle
+    400038: L_leg_thigh
+    400040: l_shoulder_jt
+    400042: L_thumb
+    400044: L_thumb_joint
+    400046: L_wrist
+    400048: Lower_Body
+    400050: LowerBody
+    400052: mixamorig:Head
+    400054: mixamorig:HeadTop_End
+    400056: mixamorig:Hips
+    400058: mixamorig:LeftArm
+    400060: mixamorig:LeftFoot
+    400062: mixamorig:LeftForeArm
+    400064: mixamorig:LeftHand
+    400066: mixamorig:LeftLeg
+    400068: mixamorig:LeftShoulder
+    400070: mixamorig:LeftToe_End
+    400072: mixamorig:LeftToeBase
+    400074: mixamorig:LeftUpLeg
+    400076: mixamorig:Neck
+    400078: mixamorig:RightArm
+    400080: mixamorig:RightFoot
+    400082: mixamorig:RightForeArm
+    400084: mixamorig:RightHand
+    400086: mixamorig:RightLeg
+    400088: mixamorig:RightShoulder
+    400090: mixamorig:RightToe_End
+    400092: mixamorig:RightToeBase
+    400094: mixamorig:RightUpLeg
+    400096: mixamorig:Spine
+    400098: mixamorig:Spine1
+    400100: mixamorig:Spine2
+    400102: neck_jt
+    400104: r_ankle_jt
+    400106: R_Arm
+    400108: R_Arm2
+    400110: R_backhand2
+    400112: r_elbow_jt2
+    400114: R_fingers2
+    400116: R_foot2
+    400118: r_hip_jt
+    400120: r_knee_jt
+    400122: r_knuckles_jt2
+    400124: r_knuckles_jt4
+    400126: R_Leg
+    400128: R_leg_ankle2
+    400130: R_leg_thigh2
+    400132: r_shoulder_jt
+    400134: R_thumb2
+    400136: R_thumb_joint2
+    400138: r_thumb_jt3
+    400140: r_thumb_jt5
+    400142: R_wrist2
+    400144: r_wrist_jt3
+    400146: r_wrist_jt5
+    400148: Ratchet
+    400150: ribs_jt
+    400152: sternum_jt
+    400154: stomach
+    400156: Tail
+    400158: tail
+    400160: Torso
+    400162: Upper_Body
+    400164: UpperBody
+    2100000: lambert1
+    4300000: l_knee_jt
+    4300002: l_ankle_jt
+    4300004: r_ankle_jt
+    4300006: r_hip_jt
+    4300008: r_knee_jt
+    4300010: l_hip_jt
+    4300012: l_shoulder_jt
+    4300014: sternum_jt
+    4300016: r_shoulder_jt
+    4300018: neck_jt
+    4300020: ribs_jt
+    4300022: abs_jt
+    4300024: r_thumb_jt5
+    4300026: r_wrist_jt5
+    4300028: r_knuckles_jt4
+    4300030: r_wrist_jt3
+    4300032: r_thumb_jt3
+    4300034: l_elbow_jt4
+    4300036: r_knuckles_jt2
+    4300038: r_elbow_jt2
+    4300040: stomach
+    4300042: chest
+    4300044: collarbone
+    4300046: L_Arm1
+    4300048: L_fingers
+    4300050: L_thumb
+    4300052: L_thumb_joint
+    4300054: L_backhand
+    4300056: L_wrist
+    4300058: R_Arm2
+    4300060: R_fingers2
+    4300062: R_thumb2
+    4300064: R_backhand2
+    4300066: R_thumb_joint2
+    4300068: R_wrist2
+    4300070: Head
+    4300072: L_leg_ankle
+    4300074: L_foot
+    4300076: L_leg_thigh
+    4300078: R_foot2
+    4300080: R_leg_thigh2
+    4300082: R_leg_ankle2
+    4300084: Hips
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: abs_jt
+    13700002: chest
+    13700004: collarbone
+    13700006: Head
+    13700008: Hips
+    13700010: l_ankle_jt
+    13700012: L_Arm1
+    13700014: L_backhand
+    13700016: l_elbow_jt4
+    13700018: L_fingers
+    13700020: L_foot
+    13700022: l_hip_jt
+    13700024: l_knee_jt
+    13700026: L_leg_ankle
+    13700028: L_leg_thigh
+    13700030: l_shoulder_jt
+    13700032: L_thumb
+    13700034: L_thumb_joint
+    13700036: L_wrist
+    13700038: neck_jt
+    13700040: r_ankle_jt
+    13700042: R_Arm2
+    13700044: R_backhand2
+    13700046: r_elbow_jt2
+    13700048: R_fingers2
+    13700050: R_foot2
+    13700052: r_hip_jt
+    13700054: r_knee_jt
+    13700056: r_knuckles_jt2
+    13700058: r_knuckles_jt4
+    13700060: R_leg_ankle2
+    13700062: R_leg_thigh2
+    13700064: r_shoulder_jt
+    13700066: R_thumb2
+    13700068: R_thumb_joint2
+    13700070: r_thumb_jt3
+    13700072: r_thumb_jt5
+    13700074: R_wrist2
+    13700076: r_wrist_jt3
+    13700078: r_wrist_jt5
+    13700080: ribs_jt
+    13700082: sternum_jt
+    13700084: stomach
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -19,7 +272,14 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'mixamorig:LeftUpLeg' : position
+      error = 16602.572266 mm\n\t'mixamorig:LeftLeg' : position error = 31943.384766
+      mm\n\t'mixamorig:LeftFoot' : position error = 28228.943359 mm\n\t'mixamorig:LeftToeBase'
+      : position error = 22508.466797 mm\n\t'mixamorig:RightUpLeg' : position error
+      = 17055.281250 mm\n\t'mixamorig:RightLeg' : position error = 32215.568359 mm\n\t'mixamorig:RightFoot'
+      : position error = 28270.833984 mm\n\t'mixamorig:RightToeBase' : position error
+      = 22359.822266 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -37,7 +297,6 @@ ModelImporter:
     - serializedVersion: 16
       name: mixamo.com
       takeName: mixamo.com
-      internalID: -203655887218126122
       firstFrame: 0
       lastFrame: 220
       wrapMode: 0
@@ -77,19 +336,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.0069999998
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -98,11 +356,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human:
     - boneName: mixamorig:Hips
       humanName: Hips
@@ -703,7 +960,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.0069999998
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1

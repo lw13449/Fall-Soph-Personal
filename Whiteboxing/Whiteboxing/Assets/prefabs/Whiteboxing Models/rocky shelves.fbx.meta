@@ -1,8 +1,26 @@
 fileFormatVersion: 2
 guid: c1ea725e7c5c2544c9bb8b728ce1bb24
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: rock_platform_corner
+    100002: rock_platform_magnet
+    100004: Rock_platform_main
+    100006: //RootNode
+    400000: rock_platform_corner
+    400002: rock_platform_magnet
+    400004: Rock_platform_main
+    400006: //RootNode
+    2100000: rock_platforms
+    2300000: rock_platform_corner
+    2300002: rock_platform_magnet
+    2300004: Rock_platform_main
+    3300000: rock_platform_corner
+    3300002: rock_platform_magnet
+    3300004: Rock_platform_main
+    4300000: rock_platform_corner
+    4300002: Rock_platform_main
+    4300004: rock_platform_magnet
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -45,19 +63,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -66,11 +83,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -80,7 +96,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

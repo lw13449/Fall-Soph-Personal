@@ -1,8 +1,113 @@
 fileFormatVersion: 2
 guid: 852862d3fb05c2b4d9e753364b3e1f57
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: crate_a
+    100002: crate_b
+    100004: fencing_side
+    100006: fencing_side1
+    100008: fencing_side3
+    100010: fencing_side4
+    100012: fencing_side5
+    100014: fencing_side6
+    100016: //RootNode
+    100018: light_platform
+    100020: light_post
+    100022: Lower_Platform
+    100024: Lower_Platform1
+    100026: main_platform
+    100028: rubble_1
+    100030: rubble_2
+    100032: rubble_3
+    100034: rubble_4
+    100036: rubble_5
+    100038: Tower
+    400000: crate_a
+    400002: crate_b
+    400004: fencing_side
+    400006: fencing_side1
+    400008: fencing_side3
+    400010: fencing_side4
+    400012: fencing_side5
+    400014: fencing_side6
+    400016: //RootNode
+    400018: light_platform
+    400020: light_post
+    400022: Lower_Platform
+    400024: Lower_Platform1
+    400026: main_platform
+    400028: rubble_1
+    400030: rubble_2
+    400032: rubble_3
+    400034: rubble_4
+    400036: rubble_5
+    400038: Tower
+    2100000: fencing
+    2100002: lambert1
+    2100004: platforms
+    2100006: towers
+    2100008: rubble_6
+    2100010: citadel
+    2100012: crate_a1
+    2100014: crate_b1
+    2300000: crate_a
+    2300002: crate_b
+    2300004: fencing_side
+    2300006: fencing_side1
+    2300008: fencing_side3
+    2300010: fencing_side4
+    2300012: fencing_side5
+    2300014: fencing_side6
+    2300016: light_platform
+    2300018: light_post
+    2300020: Lower_Platform
+    2300022: Lower_Platform1
+    2300024: main_platform
+    2300026: rubble_1
+    2300028: rubble_2
+    2300030: rubble_3
+    2300032: rubble_4
+    2300034: rubble_5
+    2300036: Tower
+    3300000: crate_a
+    3300002: crate_b
+    3300004: fencing_side
+    3300006: fencing_side1
+    3300008: fencing_side3
+    3300010: fencing_side4
+    3300012: fencing_side5
+    3300014: fencing_side6
+    3300016: light_platform
+    3300018: light_post
+    3300020: Lower_Platform
+    3300022: Lower_Platform1
+    3300024: main_platform
+    3300026: rubble_1
+    3300028: rubble_2
+    3300030: rubble_3
+    3300032: rubble_4
+    3300034: rubble_5
+    3300036: Tower
+    4300000: fencing_side
+    4300002: fencing_side1
+    4300004: fencing_side3
+    4300006: fencing_side4
+    4300008: fencing_side5
+    4300010: fencing_side6
+    4300012: light_platform
+    4300014: light_post
+    4300016: Lower_Platform1
+    4300018: Lower_Platform
+    4300020: main_platform
+    4300022: Tower
+    4300024: rubble_5
+    4300026: rubble_4
+    4300028: rubble_3
+    4300030: rubble_2
+    4300032: rubble_1
+    4300034: crate_a
+    4300036: crate_b
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -45,19 +150,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -66,11 +170,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -80,7 +183,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

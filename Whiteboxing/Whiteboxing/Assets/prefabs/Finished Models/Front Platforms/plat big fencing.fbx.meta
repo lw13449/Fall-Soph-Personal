@@ -1,8 +1,185 @@
 fileFormatVersion: 2
 guid: a5e5d442eba6bea48aca0120e1ea4e38
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _longest
+    100002: Crate_C
+    100004: curled
+    100006: fence_shield
+    100008: fencing
+    100010: medium
+    100012: medium10
+    100014: medium11
+    100016: medium12
+    100018: medium2
+    100020: medium3
+    100022: medium4
+    100024: medium5
+    100026: medium6
+    100028: medium7
+    100030: medium8
+    100032: medium9
+    100034: //RootNode
+    100036: post_B10
+    100038: post_B11
+    100040: post_B12
+    100042: post_B14
+    100044: post_B17
+    100046: post_B19
+    100048: post_B20
+    100050: post_B21
+    100052: post_B22
+    100054: post_B23
+    100056: post_B24
+    100058: post_B25
+    100060: post_B3
+    100062: post_B4
+    100064: post_B5
+    100066: post_B7
+    100068: post_B8
+    100070: post_B9
+    100072: posts
+    400000: _longest
+    400002: Crate_C
+    400004: curled
+    400006: fence_shield
+    400008: fencing
+    400010: medium
+    400012: medium10
+    400014: medium11
+    400016: medium12
+    400018: medium2
+    400020: medium3
+    400022: medium4
+    400024: medium5
+    400026: medium6
+    400028: medium7
+    400030: medium8
+    400032: medium9
+    400034: //RootNode
+    400036: post_B10
+    400038: post_B11
+    400040: post_B12
+    400042: post_B14
+    400044: post_B17
+    400046: post_B19
+    400048: post_B20
+    400050: post_B21
+    400052: post_B22
+    400054: post_B23
+    400056: post_B24
+    400058: post_B25
+    400060: post_B3
+    400062: post_B4
+    400064: post_B5
+    400066: post_B7
+    400068: post_B8
+    400070: post_B9
+    400072: posts
+    2100000: lambert1
+    2300000: _longest
+    2300002: Crate_C
+    2300004: curled
+    2300006: fence_shield
+    2300008: medium
+    2300010: medium10
+    2300012: medium11
+    2300014: medium12
+    2300016: medium2
+    2300018: medium3
+    2300020: medium4
+    2300022: medium5
+    2300024: medium6
+    2300026: medium7
+    2300028: medium8
+    2300030: medium9
+    2300032: post_B10
+    2300034: post_B11
+    2300036: post_B12
+    2300038: post_B14
+    2300040: post_B17
+    2300042: post_B19
+    2300044: post_B20
+    2300046: post_B21
+    2300048: post_B22
+    2300050: post_B23
+    2300052: post_B24
+    2300054: post_B25
+    2300056: post_B3
+    2300058: post_B4
+    2300060: post_B5
+    2300062: post_B7
+    2300064: post_B8
+    2300066: post_B9
+    3300000: _longest
+    3300002: Crate_C
+    3300004: curled
+    3300006: fence_shield
+    3300008: medium
+    3300010: medium10
+    3300012: medium11
+    3300014: medium12
+    3300016: medium2
+    3300018: medium3
+    3300020: medium4
+    3300022: medium5
+    3300024: medium6
+    3300026: medium7
+    3300028: medium8
+    3300030: medium9
+    3300032: post_B10
+    3300034: post_B11
+    3300036: post_B12
+    3300038: post_B14
+    3300040: post_B17
+    3300042: post_B19
+    3300044: post_B20
+    3300046: post_B21
+    3300048: post_B22
+    3300050: post_B23
+    3300052: post_B24
+    3300054: post_B25
+    3300056: post_B3
+    3300058: post_B4
+    3300060: post_B5
+    3300062: post_B7
+    3300064: post_B8
+    3300066: post_B9
+    4300000: post_B17
+    4300002: post_B14
+    4300004: post_B5
+    4300006: post_B7
+    4300008: post_B3
+    4300010: post_B21
+    4300012: post_B23
+    4300014: post_B20
+    4300016: post_B19
+    4300018: post_B4
+    4300020: post_B22
+    4300022: post_B10
+    4300024: post_B11
+    4300026: post_B12
+    4300028: post_B9
+    4300030: post_B8
+    4300032: Crate_C
+    4300034: post_B24
+    4300036: post_B25
+    4300038: curled
+    4300040: fence_shield
+    4300042: _longest
+    4300044: medium9
+    4300046: medium8
+    4300048: medium6
+    4300050: medium3
+    4300052: medium4
+    4300054: medium2
+    4300056: medium5
+    4300058: medium7
+    4300060: medium12
+    4300062: medium11
+    4300064: medium10
+    4300066: medium
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -45,19 +222,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -66,11 +242,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -80,7 +255,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

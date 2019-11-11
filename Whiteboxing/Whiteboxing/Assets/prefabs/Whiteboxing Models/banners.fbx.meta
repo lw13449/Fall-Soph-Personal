@@ -1,8 +1,46 @@
 fileFormatVersion: 2
 guid: 906c2ef0f42e48a478adca89ae977f4d
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Banners
+    100002: //RootNode
+    100004: Banners1
+    100006: pCylinder9
+    100008: pCylinder9 1
+    100010: pPlane1
+    100012: pPlane1 1
+    100014: pPlane2
+    100016: pPlane2 1
+    400000: Banners
+    400002: //RootNode
+    400004: Banners1
+    400006: pCylinder9
+    400008: pCylinder9 1
+    400010: pPlane1
+    400012: pPlane1 1
+    400014: pPlane2
+    400016: pPlane2 1
+    2100000: banner
+    2100002: banner_posts
+    2300000: pCylinder9
+    2300002: pCylinder9 1
+    2300004: pPlane1
+    2300006: pPlane1 1
+    2300008: pPlane2
+    2300010: pPlane2 1
+    3300000: pCylinder9
+    3300002: pCylinder9 1
+    3300004: pPlane1
+    3300006: pPlane1 1
+    3300008: pPlane2
+    3300010: pPlane2 1
+    4300000: pPlane2
+    4300002: pCylinder9
+    4300004: pPlane1
+    4300006: pPlane2
+    4300008: pCylinder9
+    4300010: pPlane1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -45,19 +83,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -66,11 +103,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -80,7 +116,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

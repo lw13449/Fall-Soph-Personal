@@ -1,8 +1,55 @@
 fileFormatVersion: 2
 guid: 000d623bc525ff8459224cb7bc6fb051
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back_mnt
+    100002: closest_mnt
+    100004: front_mnt
+    100006: front_turret1
+    100008: main_mnt
+    100010: mnt_tower
+    100012: mnt_tower1
+    100014: //RootNode
+    100016: turret6
+    100018: turret_gun6
+    400000: back_mnt
+    400002: closest_mnt
+    400004: front_mnt
+    400006: front_turret1
+    400008: main_mnt
+    400010: mnt_tower
+    400012: mnt_tower1
+    400014: //RootNode
+    400016: turret6
+    400018: turret_gun6
+    2100000: lambert1
+    2100002: citadel
+    2100004: towers
+    2300000: back_mnt
+    2300002: closest_mnt
+    2300004: front_mnt
+    2300006: main_mnt
+    2300008: mnt_tower
+    2300010: mnt_tower1
+    2300012: turret6
+    2300014: turret_gun6
+    3300000: back_mnt
+    3300002: closest_mnt
+    3300004: front_mnt
+    3300006: main_mnt
+    3300008: mnt_tower
+    3300010: mnt_tower1
+    3300012: turret6
+    3300014: turret_gun6
+    4300000: back_mnt
+    4300002: turret6
+    4300004: turret_gun6
+    4300006: mnt_tower
+    4300008: front_mnt
+    4300010: main_mnt
+    4300012: mnt_tower1
+    4300014: closest_mnt
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -45,19 +92,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -66,11 +112,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -80,7 +125,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

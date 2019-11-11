@@ -1,8 +1,87 @@
 fileFormatVersion: 2
 guid: 410d5ac48f07c7e429f89ebe39f51dc1
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arch_building:armage
+    100002: arch_building:base
+    100004: arch_building:base 1
+    100006: arch_building:Chord_1
+    100008: arch_building:Chord_2
+    100010: arch_building:Chord_3
+    100012: arch_building:chords
+    100014: arch_building:Main_gun
+    100016: arch_building:Main_gun 1
+    100018: arch_building:ray1
+    100020: arch_building:ray2
+    100022: arch_building:ray4
+    100024: arch_building:ray5
+    100026: arch_building:ray6
+    100028: arch_building:ray7
+    100030: arch_building:ray8
+    100032: arch_building:ray_circles
+    100034: //RootNode
+    400000: arch_building:armage
+    400002: arch_building:base
+    400004: arch_building:base 1
+    400006: arch_building:Chord_1
+    400008: arch_building:Chord_2
+    400010: arch_building:Chord_3
+    400012: arch_building:chords
+    400014: arch_building:Main_gun
+    400016: arch_building:Main_gun 1
+    400018: arch_building:ray1
+    400020: arch_building:ray2
+    400022: arch_building:ray4
+    400024: arch_building:ray5
+    400026: arch_building:ray6
+    400028: arch_building:ray7
+    400030: arch_building:ray8
+    400032: arch_building:ray_circles
+    400034: //RootNode
+    2100000: lambert1
+    2300000: arch_building:armage
+    2300002: arch_building:base
+    2300004: arch_building:base 1
+    2300006: arch_building:Chord_1
+    2300008: arch_building:Chord_2
+    2300010: arch_building:Chord_3
+    2300012: arch_building:Main_gun 1
+    2300014: arch_building:ray1
+    2300016: arch_building:ray2
+    2300018: arch_building:ray4
+    2300020: arch_building:ray5
+    2300022: arch_building:ray6
+    2300024: arch_building:ray7
+    2300026: arch_building:ray8
+    3300000: arch_building:armage
+    3300002: arch_building:base
+    3300004: arch_building:base 1
+    3300006: arch_building:Chord_1
+    3300008: arch_building:Chord_2
+    3300010: arch_building:Chord_3
+    3300012: arch_building:Main_gun 1
+    3300014: arch_building:ray1
+    3300016: arch_building:ray2
+    3300018: arch_building:ray4
+    3300020: arch_building:ray5
+    3300022: arch_building:ray6
+    3300024: arch_building:ray7
+    3300026: arch_building:ray8
+    4300000: arch_building:base
+    4300002: arch_building:base
+    4300004: arch_building:Main_gun
+    4300006: arch_building:ray8
+    4300008: arch_building:ray7
+    4300010: arch_building:ray6
+    4300012: arch_building:ray5
+    4300014: arch_building:ray4
+    4300016: arch_building:ray2
+    4300018: arch_building:ray1
+    4300020: arch_building:Chord_3
+    4300022: arch_building:Chord_1
+    4300024: arch_building:Chord_2
+    4300026: arch_building:armage
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -45,19 +124,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -66,11 +144,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -80,7 +157,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

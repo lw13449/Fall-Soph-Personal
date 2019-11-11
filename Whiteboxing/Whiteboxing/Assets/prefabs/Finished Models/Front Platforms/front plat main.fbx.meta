@@ -1,8 +1,73 @@
 fileFormatVersion: 2
 guid: d3ed33571acb10741b8cb7f375bfae85
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Platform_A
+    100004: rubble
+    100006: rubble_A
+    100008: rubble_B
+    100010: rubble_C
+    100012: rubble_C1
+    100014: rubble_C2
+    100016: rubble_D
+    100018: rubble_D1
+    100020: rubble_E
+    100022: rubble_E1
+    100024: rubble_F
+    100026: rubble_F1
+    400000: //RootNode
+    400002: Platform_A
+    400004: rubble
+    400006: rubble_A
+    400008: rubble_B
+    400010: rubble_C
+    400012: rubble_C1
+    400014: rubble_C2
+    400016: rubble_D
+    400018: rubble_D1
+    400020: rubble_E
+    400022: rubble_E1
+    400024: rubble_F
+    400026: rubble_F1
+    2100000: lambert1
+    2300000: Platform_A
+    2300002: rubble_A
+    2300004: rubble_B
+    2300006: rubble_C
+    2300008: rubble_C1
+    2300010: rubble_C2
+    2300012: rubble_D
+    2300014: rubble_D1
+    2300016: rubble_E
+    2300018: rubble_E1
+    2300020: rubble_F
+    2300022: rubble_F1
+    3300000: Platform_A
+    3300002: rubble_A
+    3300004: rubble_B
+    3300006: rubble_C
+    3300008: rubble_C1
+    3300010: rubble_C2
+    3300012: rubble_D
+    3300014: rubble_D1
+    3300016: rubble_E
+    3300018: rubble_E1
+    3300020: rubble_F
+    3300022: rubble_F1
+    4300000: Platform_A
+    4300002: rubble_A
+    4300004: rubble_B
+    4300006: rubble_E1
+    4300008: rubble_C2
+    4300010: rubble_E
+    4300012: rubble_D
+    4300014: rubble_C
+    4300016: rubble_F
+    4300018: rubble_F1
+    4300020: rubble_D1
+    4300022: rubble_C1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -45,19 +110,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -66,11 +130,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -80,7 +143,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

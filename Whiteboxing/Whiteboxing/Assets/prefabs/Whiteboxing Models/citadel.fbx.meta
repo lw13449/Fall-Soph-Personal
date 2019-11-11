@@ -1,11 +1,90 @@
 fileFormatVersion: 2
 guid: d5e2909e9ee6f0349af0ef05c2969c53
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable:
-  - first:
-      74: 1827226128182048838
-    second: Take 001
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: city
+    100004: pCube1
+    100006: pCylinder8
+    100008: turret
+    100010: turret2
+    100012: turret3
+    100014: turret4
+    100016: turret5
+    100018: turret6
+    100020: turret_gun
+    100022: turret_gun2
+    100024: turret_gun3
+    100026: turret_gun4
+    100028: turret_gun5
+    100030: turret_gun6
+    100032: wall
+    400000: //RootNode
+    400002: city
+    400004: pCube1
+    400006: pCylinder8
+    400008: turret
+    400010: turret2
+    400012: turret3
+    400014: turret4
+    400016: turret5
+    400018: turret6
+    400020: turret_gun
+    400022: turret_gun2
+    400024: turret_gun3
+    400026: turret_gun4
+    400028: turret_gun5
+    400030: turret_gun6
+    400032: wall
+    2100000: citadel
+    2300000: pCube1
+    2300002: pCylinder8
+    2300004: turret
+    2300006: turret2
+    2300008: turret3
+    2300010: turret4
+    2300012: turret5
+    2300014: turret6
+    2300016: turret_gun
+    2300018: turret_gun2
+    2300020: turret_gun3
+    2300022: turret_gun4
+    2300024: turret_gun5
+    2300026: turret_gun6
+    2300028: wall
+    3300000: pCube1
+    3300002: pCylinder8
+    3300004: turret
+    3300006: turret2
+    3300008: turret3
+    3300010: turret4
+    3300012: turret5
+    3300014: turret6
+    3300016: turret_gun
+    3300018: turret_gun2
+    3300020: turret_gun3
+    3300022: turret_gun4
+    3300024: turret_gun5
+    3300026: turret_gun6
+    3300028: wall
+    4300000: pCylinder8
+    4300002: pCube1
+    4300004: turret5
+    4300006: turret_gun5
+    4300008: turret2
+    4300010: turret_gun2
+    4300012: turret6
+    4300014: turret_gun6
+    4300016: wall
+    4300018: turret3
+    4300020: turret_gun3
+    4300022: turret4
+    4300024: turret_gun4
+    4300026: turret
+    4300028: turret_gun
+    7400000: Take 001
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -37,7 +116,6 @@ ModelImporter:
     - serializedVersion: 16
       name: Take 001
       takeName: Take 001
-      internalID: 1827226128182048838
       firstFrame: 1
       lastFrame: 120
       wrapMode: 0
@@ -77,19 +155,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -98,11 +175,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -112,7 +188,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

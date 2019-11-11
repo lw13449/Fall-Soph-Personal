@@ -1,8 +1,337 @@
 fileFormatVersion: 2
 guid: d7d27a94af002fb46bd72a1d4c584225
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: base
+    100002: base 1
+    100004: bloom
+    100006: bloom 1
+    100008: bulb
+    100010: bulb 1
+    100012: bulb 2
+    100014: bulb 3
+    100016: bulb 4
+    100018: bulb 5
+    100020: bulb 6
+    100022: bulb 7
+    100024: fern
+    100026: fern1
+    100028: flower1
+    100030: flower1 1
+    100032: flower_bloom
+    100034: flower_bloom1
+    100036: flower_bulb
+    100038: flower_bulb1
+    100040: leaf
+    100042: leaf 1
+    100044: leaf 2
+    100046: leaf 3
+    100048: leaf1
+    100050: leaf1 1
+    100052: leaf10
+    100054: leaf10 1
+    100056: leaf10 2
+    100058: leaf10 3
+    100060: leaf11
+    100062: leaf11 1
+    100064: leaf11 2
+    100066: leaf11 3
+    100068: leaf2
+    100070: leaf2 1
+    100072: leaf3
+    100074: leaf3 1
+    100076: leaf4
+    100078: leaf4 1
+    100080: leaf5
+    100082: leaf5 1
+    100084: leaf6
+    100086: leaf6 1
+    100088: leaf7
+    100090: leaf7 1
+    100092: leaf7 2
+    100094: leaf7 3
+    100096: leaf8
+    100098: leaf8 1
+    100100: leaf8 2
+    100102: leaf8 3
+    100104: leaf9
+    100106: leaf9 1
+    100108: leaf9 2
+    100110: leaf9 3
+    100112: leaves
+    100114: leaves 1
+    100116: leaves1
+    100118: leaves1 1
+    100120: nurbsToPoly1
+    100122: nurbsToPoly1 1
+    100124: nurbsToPoly2
+    100126: nurbsToPoly2 1
+    100128: nurbsToPoly3
+    100130: nurbsToPoly3 1
+    100132: nurbsToPoly3 2
+    100134: nurbsToPoly3 3
+    100136: //RootNode
+    100138: stem
+    100140: stem 1
+    100142: stem 2
+    100144: stem 3
+    100146: stem1
+    100148: stem1 1
+    100150: stem2
+    100152: stem2 1
+    400000: base
+    400002: base 1
+    400004: bloom
+    400006: bloom 1
+    400008: bulb
+    400010: bulb 1
+    400012: bulb 2
+    400014: bulb 3
+    400016: bulb 4
+    400018: bulb 5
+    400020: bulb 6
+    400022: bulb 7
+    400024: fern
+    400026: fern1
+    400028: flower1
+    400030: flower1 1
+    400032: flower_bloom
+    400034: flower_bloom1
+    400036: flower_bulb
+    400038: flower_bulb1
+    400040: leaf
+    400042: leaf 1
+    400044: leaf 2
+    400046: leaf 3
+    400048: leaf1
+    400050: leaf1 1
+    400052: leaf10
+    400054: leaf10 1
+    400056: leaf10 2
+    400058: leaf10 3
+    400060: leaf11
+    400062: leaf11 1
+    400064: leaf11 2
+    400066: leaf11 3
+    400068: leaf2
+    400070: leaf2 1
+    400072: leaf3
+    400074: leaf3 1
+    400076: leaf4
+    400078: leaf4 1
+    400080: leaf5
+    400082: leaf5 1
+    400084: leaf6
+    400086: leaf6 1
+    400088: leaf7
+    400090: leaf7 1
+    400092: leaf7 2
+    400094: leaf7 3
+    400096: leaf8
+    400098: leaf8 1
+    400100: leaf8 2
+    400102: leaf8 3
+    400104: leaf9
+    400106: leaf9 1
+    400108: leaf9 2
+    400110: leaf9 3
+    400112: leaves
+    400114: leaves 1
+    400116: leaves1
+    400118: leaves1 1
+    400120: nurbsToPoly1
+    400122: nurbsToPoly1 1
+    400124: nurbsToPoly2
+    400126: nurbsToPoly2 1
+    400128: nurbsToPoly3
+    400130: nurbsToPoly3 1
+    400132: nurbsToPoly3 2
+    400134: nurbsToPoly3 3
+    400136: //RootNode
+    400138: stem
+    400140: stem 1
+    400142: stem 2
+    400144: stem 3
+    400146: stem1
+    400148: stem1 1
+    400150: stem2
+    400152: stem2 1
+    2100000: lambert1
+    2300000: base
+    2300002: base 1
+    2300004: bulb
+    2300006: bulb 1
+    2300008: bulb 2
+    2300010: bulb 3
+    2300012: bulb 4
+    2300014: bulb 5
+    2300016: bulb 6
+    2300018: bulb 7
+    2300020: flower1
+    2300022: flower1 1
+    2300024: leaf
+    2300026: leaf 1
+    2300028: leaf 2
+    2300030: leaf 3
+    2300032: leaf1
+    2300034: leaf1 1
+    2300036: leaf10
+    2300038: leaf10 1
+    2300040: leaf10 2
+    2300042: leaf10 3
+    2300044: leaf11
+    2300046: leaf11 1
+    2300048: leaf11 2
+    2300050: leaf11 3
+    2300052: leaf2
+    2300054: leaf2 1
+    2300056: leaf3
+    2300058: leaf3 1
+    2300060: leaf4
+    2300062: leaf4 1
+    2300064: leaf5
+    2300066: leaf5 1
+    2300068: leaf6
+    2300070: leaf6 1
+    2300072: leaf7
+    2300074: leaf7 1
+    2300076: leaf7 2
+    2300078: leaf7 3
+    2300080: leaf8
+    2300082: leaf8 1
+    2300084: leaf8 2
+    2300086: leaf8 3
+    2300088: leaf9
+    2300090: leaf9 1
+    2300092: leaf9 2
+    2300094: leaf9 3
+    2300096: nurbsToPoly1
+    2300098: nurbsToPoly1 1
+    2300100: nurbsToPoly2
+    2300102: nurbsToPoly2 1
+    2300104: nurbsToPoly3
+    2300106: nurbsToPoly3 1
+    2300108: nurbsToPoly3 2
+    2300110: nurbsToPoly3 3
+    2300112: stem 2
+    2300114: stem 3
+    3300000: base
+    3300002: base 1
+    3300004: bulb
+    3300006: bulb 1
+    3300008: bulb 2
+    3300010: bulb 3
+    3300012: bulb 4
+    3300014: bulb 5
+    3300016: bulb 6
+    3300018: bulb 7
+    3300020: flower1
+    3300022: flower1 1
+    3300024: leaf
+    3300026: leaf 1
+    3300028: leaf 2
+    3300030: leaf 3
+    3300032: leaf1
+    3300034: leaf1 1
+    3300036: leaf10
+    3300038: leaf10 1
+    3300040: leaf10 2
+    3300042: leaf10 3
+    3300044: leaf11
+    3300046: leaf11 1
+    3300048: leaf11 2
+    3300050: leaf11 3
+    3300052: leaf2
+    3300054: leaf2 1
+    3300056: leaf3
+    3300058: leaf3 1
+    3300060: leaf4
+    3300062: leaf4 1
+    3300064: leaf5
+    3300066: leaf5 1
+    3300068: leaf6
+    3300070: leaf6 1
+    3300072: leaf7
+    3300074: leaf7 1
+    3300076: leaf7 2
+    3300078: leaf7 3
+    3300080: leaf8
+    3300082: leaf8 1
+    3300084: leaf8 2
+    3300086: leaf8 3
+    3300088: leaf9
+    3300090: leaf9 1
+    3300092: leaf9 2
+    3300094: leaf9 3
+    3300096: nurbsToPoly1
+    3300098: nurbsToPoly1 1
+    3300100: nurbsToPoly2
+    3300102: nurbsToPoly2 1
+    3300104: nurbsToPoly3
+    3300106: nurbsToPoly3 1
+    3300108: nurbsToPoly3 2
+    3300110: nurbsToPoly3 3
+    3300112: stem 2
+    3300114: stem 3
+    4300000: leaf1
+    4300002: base
+    4300004: leaf2
+    4300006: leaf3
+    4300008: leaf4
+    4300010: leaf5
+    4300012: leaf6
+    4300014: bulb
+    4300016: nurbsToPoly1
+    4300018: bulb
+    4300020: nurbsToPoly2
+    4300022: bulb
+    4300024: nurbsToPoly3
+    4300026: stem
+    4300028: leaf10
+    4300030: leaf11
+    4300032: leaf9
+    4300034: leaf8
+    4300036: leaf7
+    4300038: leaf
+    4300040: flower1
+    4300042: nurbsToPoly3
+    4300044: leaf10
+    4300046: leaf11
+    4300048: leaf9
+    4300050: leaf8
+    4300052: leaf7
+    4300054: leaf
+    4300056: bulb
+    4300058: nurbsToPoly3
+    4300060: leaf10
+    4300062: leaf11
+    4300064: leaf9
+    4300066: leaf8
+    4300068: leaf7
+    4300070: leaf
+    4300072: bulb
+    4300074: stem
+    4300076: leaf10
+    4300078: leaf11
+    4300080: leaf9
+    4300082: leaf8
+    4300084: leaf7
+    4300086: leaf
+    4300088: flower1
+    4300090: leaf1
+    4300092: base
+    4300094: leaf2
+    4300096: leaf3
+    4300098: leaf4
+    4300100: leaf5
+    4300102: leaf6
+    4300104: bulb
+    4300106: nurbsToPoly1
+    4300108: bulb
+    4300110: nurbsToPoly2
+    4300112: bulb
+    4300114: nurbsToPoly3
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -45,19 +374,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -66,11 +394,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -80,7 +407,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

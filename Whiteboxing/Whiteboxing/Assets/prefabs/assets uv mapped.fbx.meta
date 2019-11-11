@@ -1,8 +1,995 @@
 fileFormatVersion: 2
 guid: eb5b4485d203ddf41b19cf2635751fce
 ModelImporter:
-  serializedVersion: 25
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _longest
+    100002: _longest1
+    100004: arch_building:armage
+    100006: arch_building:base
+    100008: arch_building:base 1
+    100010: arch_building:Building
+    100012: arch_building:Chord_1
+    100014: arch_building:Chord_2
+    100016: arch_building:Chord_3
+    100018: arch_building:chords
+    100020: arch_building:Main_gun
+    100022: arch_building:Main_gun 1
+    100024: arch_building:ray1
+    100026: arch_building:ray2
+    100028: arch_building:ray4
+    100030: arch_building:ray5
+    100032: arch_building:ray6
+    100034: arch_building:ray7
+    100036: arch_building:ray8
+    100038: arch_building:ray_circles
+    100040: arch_rock_plat
+    100042: //RootNode
+    100044: Banner1
+    100046: Base
+    100048: base
+    100050: base 1
+    100052: base 2
+    100054: base 3
+    100056: battleship
+    100058: Blarg_Battleship1:Gear1
+    100060: Blarg_Battleship1:Gear2
+    100062: Blarg_Battleship1:Gun1
+    100064: Blarg_Battleship1:Gun2
+    100066: Blarg_Battleship1:Main_build1
+    100068: Blarg_Battleship1:Main_build2
+    100070: Blarg_Battleship1:Mech_2
+    100072: Blarg_Battleship1:Mech_3
+    100074: Blarg_Battleship1:s_mech_button_plane1
+    100076: Blarg_Battleship1:s_mech_button_plane2
+    100078: Blarg_Battleship1:ship_fin_R4
+    100080: Blarg_Battleship1:ship_fin_R5
+    100082: Blarg_Battleship1:Side_mech_button1
+    100084: Blarg_Battleship1:Side_mech_button2
+    100086: Blarg_Battleship1:Under_gun1
+    100088: Blarg_Battleship1:Under_gun2
+    100090: Blarg_Battleship1:Under_gun3
+    100092: Blarg_Battleship1:Under_gun4
+    100094: Blarg_Battleship1:Under_gun5
+    100096: Blarg_Battleship1:Under_gun6
+    100098: Blarg_Battleship1:wing_bulge1
+    100100: Blarg_Battleship1:wing_bulge2
+    100102: Blarg_Battleship1:wing_bulge3
+    100104: Blarg_Battleship1:wing_bulge5
+    100106: Blarg_Battleship1:wing_thing2
+    100108: Blarg_Battleship1:wing_thing3
+    100110: Blarg_Battleship1:wing_thing5
+    100112: Blarg_Battleship1:wing_thing6
+    100114: bloom
+    100116: build
+    100118: bulb
+    100120: bulb 1
+    100122: bulb 2
+    100124: bulb 3
+    100126: Cit_wall_opening
+    100128: Citadel1:city_support1
+    100130: Citadel1:G_Turret_Base3
+    100132: Citadel1:GTurret_Gun
+    100134: Citadel1:Gun_pipe12
+    100136: Citadel1:Gun_pipe13
+    100138: Citadel1:Gun_pipe14
+    100140: Citadel1:Gun_pipe14 1
+    100142: Citadel1:Gun_pipe9
+    100144: Citadel1:Gun_pipe9 1
+    100146: Citadel1:sphere_gear
+    100148: Citadel1:sphere_gear 1
+    100150: Citadel1:sphere_gear1
+    100152: Citadel1:sphere_gear1 1
+    100154: Citadel1:Turret_gun_7
+    100156: Citadel1:Turret_gun_7 1
+    100158: Citadel1:Turret_gun_8
+    100160: Citadel1:Turret_gun_8 1
+    100162: Citadel1:Turret_gun_top10
+    100164: Citadel1:Turret_gun_top10 1
+    100166: Citadel1:Turret_gun_top9
+    100168: Citadel1:Turret_gun_top9 1
+    100170: Citadel2
+    100172: Citadel_rcok_plat
+    100174: City_Turrest
+    100176: city_turret_1
+    100178: City_wall
+    100180: City_wall 1
+    100182: City_wall_opening
+    100184: City_walls
+    100186: Crate_B
+    100188: Crates
+    100190: Crates_A
+    100192: CT_gun
+    100194: curled
+    100196: Engine
+    100198: Far_Plat
+    100200: Far_Plat_A
+    100202: Far_Plat_B
+    100204: fence_shield
+    100206: fencing
+    100208: fencing 1
+    100210: fern
+    100212: fins
+    100214: flag4
+    100216: flag5
+    100218: flags
+    100220: flower1
+    100222: flower_bloom
+    100224: flower_bulb
+    100226: front_arch_GB
+    100228: front_plat_big
+    100230: front_plat_main
+    100232: Front_plat_small
+    100234: Gate_stakes
+    100236: Gate_stakes1
+    100238: Gate_stakes1 1
+    100240: Gate_stakes2
+    100242: Gate_Turrets
+    100244: Golden_bolt
+    100246: golden_bolt_building
+    100248: guns
+    100250: guns 1
+    100252: hover_light
+    100254: L_Wing
+    100256: leaf
+    100258: leaf 1
+    100260: leaf1
+    100262: leaf10
+    100264: leaf10 1
+    100266: leaf11
+    100268: leaf11 1
+    100270: leaf2
+    100272: leaf3
+    100274: leaf4
+    100276: leaf5
+    100278: leaf6
+    100280: leaf7
+    100282: leaf7 1
+    100284: leaf8
+    100286: leaf8 1
+    100288: leaf9
+    100290: leaf9 1
+    100292: leaves
+    100294: leaves1
+    100296: light
+    100298: light_panel
+    100300: light_panel1
+    100302: light_pole
+    100304: magnet_ion_path
+    100306: main
+    100308: main_build
+    100310: Main_building
+    100312: medium
+    100314: medium_ish
+    100316: missile
+    100318: nurbsToPoly1
+    100320: nurbsToPoly2
+    100322: nurbsToPoly3
+    100324: nurbsToPoly3 1
+    100326: plants
+    100328: Platform_A
+    100330: Platform_B
+    100332: Platform_C
+    100334: pole
+    100336: pole 1
+    100338: post_A
+    100340: post_B
+    100342: post_crate
+    100344: posts
+    100346: R_Engine2
+    100348: R_Engine3
+    100350: R_Gun5
+    100352: R_Wing
+    100354: rock_formation
+    100356: rock_front
+    100358: rock_platforms
+    100360: rubble
+    100362: rubble1
+    100364: rubble_A
+    100366: rubble_A 1
+    100368: rubble_B
+    100370: rubble_B 1
+    100372: rubble_B1
+    100374: rubble_B2
+    100376: rubble_C
+    100378: rubble_C 1
+    100380: rubble_C1
+    100382: rubble_C1 1
+    100384: rubble_C2
+    100386: rubble_C2 1
+    100388: rubble_C3
+    100390: rubble_C4
+    100392: rubble_C5
+    100394: rubble_C6
+    100396: rubble_D
+    100398: rubble_D 1
+    100400: rubble_D1
+    100402: rubble_D1 1
+    100404: rubble_D2
+    100406: rubble_D3
+    100408: rubble_E
+    100410: rubble_E 1
+    100412: rubble_E1
+    100414: rubble_E1 1
+    100416: rubble_E2
+    100418: rubble_E3
+    100420: rubble_E4
+    100422: rubble_F
+    100424: rubble_F 1
+    100426: rubble_F1
+    100428: rubble_F1 1
+    100430: rubble_F2
+    100432: rubble_F3
+    100434: rubble_F4
+    100436: Ship
+    100438: short
+    100440: side_bulge
+    100442: side_gun
+    100444: side_gun_b
+    100446: side_mechs
+    100448: side_mechs_b
+    100450: stem
+    100452: stem 1
+    100454: stem1
+    100456: stem2
+    100458: supports
+    100460: Tower
+    100462: tower2
+    100464: wing1a
+    100466: wing1b
+    100468: wing2a
+    100470: wing2b
+    100472: Wings
+    400000: _longest
+    400002: _longest1
+    400004: arch_building:armage
+    400006: arch_building:base
+    400008: arch_building:base 1
+    400010: arch_building:Building
+    400012: arch_building:Chord_1
+    400014: arch_building:Chord_2
+    400016: arch_building:Chord_3
+    400018: arch_building:chords
+    400020: arch_building:Main_gun
+    400022: arch_building:Main_gun 1
+    400024: arch_building:ray1
+    400026: arch_building:ray2
+    400028: arch_building:ray4
+    400030: arch_building:ray5
+    400032: arch_building:ray6
+    400034: arch_building:ray7
+    400036: arch_building:ray8
+    400038: arch_building:ray_circles
+    400040: arch_rock_plat
+    400042: //RootNode
+    400044: Banner1
+    400046: Base
+    400048: base
+    400050: base 1
+    400052: base 2
+    400054: base 3
+    400056: battleship
+    400058: Blarg_Battleship1:Gear1
+    400060: Blarg_Battleship1:Gear2
+    400062: Blarg_Battleship1:Gun1
+    400064: Blarg_Battleship1:Gun2
+    400066: Blarg_Battleship1:Main_build1
+    400068: Blarg_Battleship1:Main_build2
+    400070: Blarg_Battleship1:Mech_2
+    400072: Blarg_Battleship1:Mech_3
+    400074: Blarg_Battleship1:s_mech_button_plane1
+    400076: Blarg_Battleship1:s_mech_button_plane2
+    400078: Blarg_Battleship1:ship_fin_R4
+    400080: Blarg_Battleship1:ship_fin_R5
+    400082: Blarg_Battleship1:Side_mech_button1
+    400084: Blarg_Battleship1:Side_mech_button2
+    400086: Blarg_Battleship1:Under_gun1
+    400088: Blarg_Battleship1:Under_gun2
+    400090: Blarg_Battleship1:Under_gun3
+    400092: Blarg_Battleship1:Under_gun4
+    400094: Blarg_Battleship1:Under_gun5
+    400096: Blarg_Battleship1:Under_gun6
+    400098: Blarg_Battleship1:wing_bulge1
+    400100: Blarg_Battleship1:wing_bulge2
+    400102: Blarg_Battleship1:wing_bulge3
+    400104: Blarg_Battleship1:wing_bulge5
+    400106: Blarg_Battleship1:wing_thing2
+    400108: Blarg_Battleship1:wing_thing3
+    400110: Blarg_Battleship1:wing_thing5
+    400112: Blarg_Battleship1:wing_thing6
+    400114: bloom
+    400116: build
+    400118: bulb
+    400120: bulb 1
+    400122: bulb 2
+    400124: bulb 3
+    400126: Cit_wall_opening
+    400128: Citadel1:city_support1
+    400130: Citadel1:G_Turret_Base3
+    400132: Citadel1:GTurret_Gun
+    400134: Citadel1:Gun_pipe12
+    400136: Citadel1:Gun_pipe13
+    400138: Citadel1:Gun_pipe14
+    400140: Citadel1:Gun_pipe14 1
+    400142: Citadel1:Gun_pipe9
+    400144: Citadel1:Gun_pipe9 1
+    400146: Citadel1:sphere_gear
+    400148: Citadel1:sphere_gear 1
+    400150: Citadel1:sphere_gear1
+    400152: Citadel1:sphere_gear1 1
+    400154: Citadel1:Turret_gun_7
+    400156: Citadel1:Turret_gun_7 1
+    400158: Citadel1:Turret_gun_8
+    400160: Citadel1:Turret_gun_8 1
+    400162: Citadel1:Turret_gun_top10
+    400164: Citadel1:Turret_gun_top10 1
+    400166: Citadel1:Turret_gun_top9
+    400168: Citadel1:Turret_gun_top9 1
+    400170: Citadel2
+    400172: Citadel_rcok_plat
+    400174: City_Turrest
+    400176: city_turret_1
+    400178: City_wall
+    400180: City_wall 1
+    400182: City_wall_opening
+    400184: City_walls
+    400186: Crate_B
+    400188: Crates
+    400190: Crates_A
+    400192: CT_gun
+    400194: curled
+    400196: Engine
+    400198: Far_Plat
+    400200: Far_Plat_A
+    400202: Far_Plat_B
+    400204: fence_shield
+    400206: fencing
+    400208: fencing 1
+    400210: fern
+    400212: fins
+    400214: flag4
+    400216: flag5
+    400218: flags
+    400220: flower1
+    400222: flower_bloom
+    400224: flower_bulb
+    400226: front_arch_GB
+    400228: front_plat_big
+    400230: front_plat_main
+    400232: Front_plat_small
+    400234: Gate_stakes
+    400236: Gate_stakes1
+    400238: Gate_stakes1 1
+    400240: Gate_stakes2
+    400242: Gate_Turrets
+    400244: Golden_bolt
+    400246: golden_bolt_building
+    400248: guns
+    400250: guns 1
+    400252: hover_light
+    400254: L_Wing
+    400256: leaf
+    400258: leaf 1
+    400260: leaf1
+    400262: leaf10
+    400264: leaf10 1
+    400266: leaf11
+    400268: leaf11 1
+    400270: leaf2
+    400272: leaf3
+    400274: leaf4
+    400276: leaf5
+    400278: leaf6
+    400280: leaf7
+    400282: leaf7 1
+    400284: leaf8
+    400286: leaf8 1
+    400288: leaf9
+    400290: leaf9 1
+    400292: leaves
+    400294: leaves1
+    400296: light
+    400298: light_panel
+    400300: light_panel1
+    400302: light_pole
+    400304: magnet_ion_path
+    400306: main
+    400308: main_build
+    400310: Main_building
+    400312: medium
+    400314: medium_ish
+    400316: missile
+    400318: nurbsToPoly1
+    400320: nurbsToPoly2
+    400322: nurbsToPoly3
+    400324: nurbsToPoly3 1
+    400326: plants
+    400328: Platform_A
+    400330: Platform_B
+    400332: Platform_C
+    400334: pole
+    400336: pole 1
+    400338: post_A
+    400340: post_B
+    400342: post_crate
+    400344: posts
+    400346: R_Engine2
+    400348: R_Engine3
+    400350: R_Gun5
+    400352: R_Wing
+    400354: rock_formation
+    400356: rock_front
+    400358: rock_platforms
+    400360: rubble
+    400362: rubble1
+    400364: rubble_A
+    400366: rubble_A 1
+    400368: rubble_B
+    400370: rubble_B 1
+    400372: rubble_B1
+    400374: rubble_B2
+    400376: rubble_C
+    400378: rubble_C 1
+    400380: rubble_C1
+    400382: rubble_C1 1
+    400384: rubble_C2
+    400386: rubble_C2 1
+    400388: rubble_C3
+    400390: rubble_C4
+    400392: rubble_C5
+    400394: rubble_C6
+    400396: rubble_D
+    400398: rubble_D 1
+    400400: rubble_D1
+    400402: rubble_D1 1
+    400404: rubble_D2
+    400406: rubble_D3
+    400408: rubble_E
+    400410: rubble_E 1
+    400412: rubble_E1
+    400414: rubble_E1 1
+    400416: rubble_E2
+    400418: rubble_E3
+    400420: rubble_E4
+    400422: rubble_F
+    400424: rubble_F 1
+    400426: rubble_F1
+    400428: rubble_F1 1
+    400430: rubble_F2
+    400432: rubble_F3
+    400434: rubble_F4
+    400436: Ship
+    400438: short
+    400440: side_bulge
+    400442: side_gun
+    400444: side_gun_b
+    400446: side_mechs
+    400448: side_mechs_b
+    400450: stem
+    400452: stem 1
+    400454: stem1
+    400456: stem2
+    400458: supports
+    400460: Tower
+    400462: tower2
+    400464: wing1a
+    400466: wing1b
+    400468: wing2a
+    400470: wing2b
+    400472: Wings
+    2300000: _longest
+    2300002: _longest1
+    2300004: arch_building:armage
+    2300006: arch_building:base
+    2300008: arch_building:base 1
+    2300010: arch_building:Chord_1
+    2300012: arch_building:Chord_2
+    2300014: arch_building:Chord_3
+    2300016: arch_building:Main_gun 1
+    2300018: arch_building:ray1
+    2300020: arch_building:ray2
+    2300022: arch_building:ray4
+    2300024: arch_building:ray5
+    2300026: arch_building:ray6
+    2300028: arch_building:ray7
+    2300030: arch_building:ray8
+    2300032: arch_rock_plat
+    2300034: Base
+    2300036: base
+    2300038: base 1
+    2300040: base 2
+    2300042: base 3
+    2300044: Blarg_Battleship1:Gear1
+    2300046: Blarg_Battleship1:Gear2
+    2300048: Blarg_Battleship1:Gun1
+    2300050: Blarg_Battleship1:Gun2
+    2300052: Blarg_Battleship1:Main_build1
+    2300054: Blarg_Battleship1:Main_build2
+    2300056: Blarg_Battleship1:Mech_2
+    2300058: Blarg_Battleship1:Mech_3
+    2300060: Blarg_Battleship1:s_mech_button_plane1
+    2300062: Blarg_Battleship1:s_mech_button_plane2
+    2300064: Blarg_Battleship1:ship_fin_R4
+    2300066: Blarg_Battleship1:ship_fin_R5
+    2300068: Blarg_Battleship1:Side_mech_button1
+    2300070: Blarg_Battleship1:Side_mech_button2
+    2300072: Blarg_Battleship1:Under_gun1
+    2300074: Blarg_Battleship1:Under_gun2
+    2300076: Blarg_Battleship1:Under_gun3
+    2300078: Blarg_Battleship1:Under_gun4
+    2300080: Blarg_Battleship1:Under_gun5
+    2300082: Blarg_Battleship1:Under_gun6
+    2300084: Blarg_Battleship1:wing_bulge1
+    2300086: Blarg_Battleship1:wing_bulge2
+    2300088: Blarg_Battleship1:wing_bulge3
+    2300090: Blarg_Battleship1:wing_bulge5
+    2300092: Blarg_Battleship1:wing_thing2
+    2300094: Blarg_Battleship1:wing_thing3
+    2300096: Blarg_Battleship1:wing_thing5
+    2300098: Blarg_Battleship1:wing_thing6
+    2300100: bulb
+    2300102: bulb 1
+    2300104: bulb 2
+    2300106: bulb 3
+    2300108: Cit_wall_opening
+    2300110: Citadel1:city_support1
+    2300112: Citadel1:G_Turret_Base3
+    2300114: Citadel1:Gun_pipe12
+    2300116: Citadel1:Gun_pipe13
+    2300118: Citadel1:Gun_pipe14 1
+    2300120: Citadel1:Gun_pipe9 1
+    2300122: Citadel1:sphere_gear 1
+    2300124: Citadel1:sphere_gear1 1
+    2300126: Citadel1:Turret_gun_7 1
+    2300128: Citadel1:Turret_gun_8 1
+    2300130: Citadel1:Turret_gun_top10 1
+    2300132: Citadel1:Turret_gun_top9 1
+    2300134: Citadel_rcok_plat
+    2300136: City_wall 1
+    2300138: Crate_B
+    2300140: Crates_A
+    2300142: curled
+    2300144: Far_Plat_A
+    2300146: Far_Plat_B
+    2300148: fence_shield
+    2300150: flag4
+    2300152: flag5
+    2300154: flower1
+    2300156: front_arch_GB
+    2300158: Gate_stakes
+    2300160: Gate_stakes1
+    2300162: Gate_stakes1 1
+    2300164: Gate_stakes2
+    2300166: Golden_bolt
+    2300168: hover_light
+    2300170: L_Wing
+    2300172: leaf
+    2300174: leaf 1
+    2300176: leaf1
+    2300178: leaf10
+    2300180: leaf10 1
+    2300182: leaf11
+    2300184: leaf11 1
+    2300186: leaf2
+    2300188: leaf3
+    2300190: leaf4
+    2300192: leaf5
+    2300194: leaf6
+    2300196: leaf7
+    2300198: leaf7 1
+    2300200: leaf8
+    2300202: leaf8 1
+    2300204: leaf9
+    2300206: leaf9 1
+    2300208: light
+    2300210: light_panel
+    2300212: light_panel1
+    2300214: magnet_ion_path
+    2300216: main
+    2300218: main_build
+    2300220: medium
+    2300222: medium_ish
+    2300224: missile
+    2300226: nurbsToPoly1
+    2300228: nurbsToPoly2
+    2300230: nurbsToPoly3
+    2300232: nurbsToPoly3 1
+    2300234: Platform_A
+    2300236: Platform_B
+    2300238: Platform_C
+    2300240: pole
+    2300242: pole 1
+    2300244: post_A
+    2300246: post_B
+    2300248: post_crate
+    2300250: R_Engine2
+    2300252: R_Engine3
+    2300254: R_Gun5
+    2300256: R_Wing
+    2300258: rock_formation
+    2300260: rock_front
+    2300262: rubble_A
+    2300264: rubble_A 1
+    2300266: rubble_B
+    2300268: rubble_B 1
+    2300270: rubble_B1
+    2300272: rubble_B2
+    2300274: rubble_C
+    2300276: rubble_C 1
+    2300278: rubble_C1
+    2300280: rubble_C1 1
+    2300282: rubble_C2
+    2300284: rubble_C2 1
+    2300286: rubble_C3
+    2300288: rubble_C4
+    2300290: rubble_C5
+    2300292: rubble_C6
+    2300294: rubble_D
+    2300296: rubble_D 1
+    2300298: rubble_D1
+    2300300: rubble_D1 1
+    2300302: rubble_D2
+    2300304: rubble_D3
+    2300306: rubble_E
+    2300308: rubble_E 1
+    2300310: rubble_E1
+    2300312: rubble_E1 1
+    2300314: rubble_E2
+    2300316: rubble_E3
+    2300318: rubble_E4
+    2300320: rubble_F
+    2300322: rubble_F 1
+    2300324: rubble_F1
+    2300326: rubble_F1 1
+    2300328: rubble_F2
+    2300330: rubble_F3
+    2300332: rubble_F4
+    2300334: short
+    2300336: side_bulge
+    2300338: stem 1
+    2300340: tower2
+    3300000: _longest
+    3300002: _longest1
+    3300004: arch_building:armage
+    3300006: arch_building:base
+    3300008: arch_building:base 1
+    3300010: arch_building:Chord_1
+    3300012: arch_building:Chord_2
+    3300014: arch_building:Chord_3
+    3300016: arch_building:Main_gun 1
+    3300018: arch_building:ray1
+    3300020: arch_building:ray2
+    3300022: arch_building:ray4
+    3300024: arch_building:ray5
+    3300026: arch_building:ray6
+    3300028: arch_building:ray7
+    3300030: arch_building:ray8
+    3300032: arch_rock_plat
+    3300034: Base
+    3300036: base
+    3300038: base 1
+    3300040: base 2
+    3300042: base 3
+    3300044: Blarg_Battleship1:Gear1
+    3300046: Blarg_Battleship1:Gear2
+    3300048: Blarg_Battleship1:Gun1
+    3300050: Blarg_Battleship1:Gun2
+    3300052: Blarg_Battleship1:Main_build1
+    3300054: Blarg_Battleship1:Main_build2
+    3300056: Blarg_Battleship1:Mech_2
+    3300058: Blarg_Battleship1:Mech_3
+    3300060: Blarg_Battleship1:s_mech_button_plane1
+    3300062: Blarg_Battleship1:s_mech_button_plane2
+    3300064: Blarg_Battleship1:ship_fin_R4
+    3300066: Blarg_Battleship1:ship_fin_R5
+    3300068: Blarg_Battleship1:Side_mech_button1
+    3300070: Blarg_Battleship1:Side_mech_button2
+    3300072: Blarg_Battleship1:Under_gun1
+    3300074: Blarg_Battleship1:Under_gun2
+    3300076: Blarg_Battleship1:Under_gun3
+    3300078: Blarg_Battleship1:Under_gun4
+    3300080: Blarg_Battleship1:Under_gun5
+    3300082: Blarg_Battleship1:Under_gun6
+    3300084: Blarg_Battleship1:wing_bulge1
+    3300086: Blarg_Battleship1:wing_bulge2
+    3300088: Blarg_Battleship1:wing_bulge3
+    3300090: Blarg_Battleship1:wing_bulge5
+    3300092: Blarg_Battleship1:wing_thing2
+    3300094: Blarg_Battleship1:wing_thing3
+    3300096: Blarg_Battleship1:wing_thing5
+    3300098: Blarg_Battleship1:wing_thing6
+    3300100: bulb
+    3300102: bulb 1
+    3300104: bulb 2
+    3300106: bulb 3
+    3300108: Cit_wall_opening
+    3300110: Citadel1:city_support1
+    3300112: Citadel1:G_Turret_Base3
+    3300114: Citadel1:Gun_pipe12
+    3300116: Citadel1:Gun_pipe13
+    3300118: Citadel1:Gun_pipe14 1
+    3300120: Citadel1:Gun_pipe9 1
+    3300122: Citadel1:sphere_gear 1
+    3300124: Citadel1:sphere_gear1 1
+    3300126: Citadel1:Turret_gun_7 1
+    3300128: Citadel1:Turret_gun_8 1
+    3300130: Citadel1:Turret_gun_top10 1
+    3300132: Citadel1:Turret_gun_top9 1
+    3300134: Citadel_rcok_plat
+    3300136: City_wall 1
+    3300138: Crate_B
+    3300140: Crates_A
+    3300142: curled
+    3300144: Far_Plat_A
+    3300146: Far_Plat_B
+    3300148: fence_shield
+    3300150: flag4
+    3300152: flag5
+    3300154: flower1
+    3300156: front_arch_GB
+    3300158: Gate_stakes
+    3300160: Gate_stakes1
+    3300162: Gate_stakes1 1
+    3300164: Gate_stakes2
+    3300166: Golden_bolt
+    3300168: hover_light
+    3300170: L_Wing
+    3300172: leaf
+    3300174: leaf 1
+    3300176: leaf1
+    3300178: leaf10
+    3300180: leaf10 1
+    3300182: leaf11
+    3300184: leaf11 1
+    3300186: leaf2
+    3300188: leaf3
+    3300190: leaf4
+    3300192: leaf5
+    3300194: leaf6
+    3300196: leaf7
+    3300198: leaf7 1
+    3300200: leaf8
+    3300202: leaf8 1
+    3300204: leaf9
+    3300206: leaf9 1
+    3300208: light
+    3300210: light_panel
+    3300212: light_panel1
+    3300214: magnet_ion_path
+    3300216: main
+    3300218: main_build
+    3300220: medium
+    3300222: medium_ish
+    3300224: missile
+    3300226: nurbsToPoly1
+    3300228: nurbsToPoly2
+    3300230: nurbsToPoly3
+    3300232: nurbsToPoly3 1
+    3300234: Platform_A
+    3300236: Platform_B
+    3300238: Platform_C
+    3300240: pole
+    3300242: pole 1
+    3300244: post_A
+    3300246: post_B
+    3300248: post_crate
+    3300250: R_Engine2
+    3300252: R_Engine3
+    3300254: R_Gun5
+    3300256: R_Wing
+    3300258: rock_formation
+    3300260: rock_front
+    3300262: rubble_A
+    3300264: rubble_A 1
+    3300266: rubble_B
+    3300268: rubble_B 1
+    3300270: rubble_B1
+    3300272: rubble_B2
+    3300274: rubble_C
+    3300276: rubble_C 1
+    3300278: rubble_C1
+    3300280: rubble_C1 1
+    3300282: rubble_C2
+    3300284: rubble_C2 1
+    3300286: rubble_C3
+    3300288: rubble_C4
+    3300290: rubble_C5
+    3300292: rubble_C6
+    3300294: rubble_D
+    3300296: rubble_D 1
+    3300298: rubble_D1
+    3300300: rubble_D1 1
+    3300302: rubble_D2
+    3300304: rubble_D3
+    3300306: rubble_E
+    3300308: rubble_E 1
+    3300310: rubble_E1
+    3300312: rubble_E1 1
+    3300314: rubble_E2
+    3300316: rubble_E3
+    3300318: rubble_E4
+    3300320: rubble_F
+    3300322: rubble_F 1
+    3300324: rubble_F1
+    3300326: rubble_F1 1
+    3300328: rubble_F2
+    3300330: rubble_F3
+    3300332: rubble_F4
+    3300334: short
+    3300336: side_bulge
+    3300338: stem 1
+    3300340: tower2
+    4300000: magnet_ion_path
+    4300002: arch_building:base
+    4300004: arch_building:base
+    4300006: arch_building:Main_gun
+    4300008: arch_building:ray8
+    4300010: arch_building:ray7
+    4300012: arch_building:ray6
+    4300014: arch_building:ray5
+    4300016: arch_building:ray4
+    4300018: arch_building:ray2
+    4300020: arch_building:ray1
+    4300022: arch_building:Chord_3
+    4300024: arch_building:Chord_1
+    4300026: arch_building:Chord_2
+    4300028: arch_building:armage
+    4300030: Citadel_rcok_plat
+    4300032: rock_formation
+    4300034: arch_rock_plat
+    4300036: Far_Plat_B
+    4300038: Far_Plat_A
+    4300040: main
+    4300042: tower2
+    4300044: Citadel1:Gun_pipe12
+    4300046: Citadel1:Gun_pipe13
+    4300048: Citadel1:city_support1
+    4300050: Cit_wall_opening
+    4300052: Gate_stakes2
+    4300054: Gate_stakes1
+    4300056: City_wall
+    4300058: Gate_stakes
+    4300060: Gate_stakes1
+    4300062: Citadel1:G_Turret_Base3
+    4300064: Citadel1:Turret_gun_top10
+    4300066: Citadel1:sphere_gear1
+    4300068: Citadel1:Turret_gun_8
+    4300070: Citadel1:Gun_pipe14
+    4300072: Citadel1:Turret_gun_top9
+    4300074: Citadel1:Turret_gun_7
+    4300076: Citadel1:Gun_pipe9
+    4300078: Citadel1:sphere_gear
+    4300080: base
+    4300082: Platform_B
+    4300084: rubble_A
+    4300086: rubble_B
+    4300088: rubble_E1
+    4300090: rubble_C2
+    4300092: rubble_E
+    4300094: rubble_D
+    4300096: rubble_C
+    4300098: rubble_F
+    4300100: rubble_F1
+    4300102: rubble_D1
+    4300104: rubble_C1
+    4300106: rubble_C3
+    4300108: rubble_C4
+    4300110: rubble_C5
+    4300112: rubble_B1
+    4300114: rubble_E2
+    4300116: rubble_E3
+    4300118: rubble_F2
+    4300120: rubble_D2
+    4300122: rubble_F3
+    4300124: rubble_E4
+    4300126: rubble_D3
+    4300128: rubble_F4
+    4300130: rubble_B2
+    4300132: rubble_C6
+    4300134: leaf1
+    4300136: base
+    4300138: leaf2
+    4300140: leaf3
+    4300142: leaf4
+    4300144: leaf5
+    4300146: leaf6
+    4300148: bulb
+    4300150: nurbsToPoly1
+    4300152: bulb
+    4300154: nurbsToPoly2
+    4300156: bulb
+    4300158: nurbsToPoly3
+    4300160: stem
+    4300162: leaf10
+    4300164: leaf11
+    4300166: leaf9
+    4300168: leaf8
+    4300170: leaf7
+    4300172: leaf
+    4300174: flower1
+    4300176: nurbsToPoly3
+    4300178: leaf10
+    4300180: leaf11
+    4300182: leaf9
+    4300184: leaf8
+    4300186: leaf7
+    4300188: leaf
+    4300190: bulb
+    4300192: Crate_B
+    4300194: Crates_A
+    4300196: Base
+    4300198: light_panel
+    4300200: light_panel1
+    4300202: post_crate
+    4300204: Golden_bolt
+    4300206: side_bulge
+    4300208: base
+    4300210: front_arch_GB
+    4300212: curled
+    4300214: _longest
+    4300216: fence_shield
+    4300218: medium
+    4300220: medium_ish
+    4300222: pole
+    4300224: flag4
+    4300226: flag5
+    4300228: Platform_C
+    4300230: pole
+    4300232: light
+    4300234: rock_front
+    4300236: Platform_A
+    4300238: rubble_A
+    4300240: rubble_B
+    4300242: rubble_E1
+    4300244: rubble_C2
+    4300246: rubble_E
+    4300248: rubble_D
+    4300250: rubble_C
+    4300252: rubble_F
+    4300254: rubble_F1
+    4300256: rubble_D1
+    4300258: rubble_C1
+    4300260: post_B
+    4300262: post_A
+    4300264: _longest1
+    4300266: short
+    4300268: R_Wing
+    4300270: L_Wing
+    4300272: main_build
+    4300274: R_Engine3
+    4300276: R_Engine2
+    4300278: R_Gun5
+    4300280: Blarg_Battleship1:Under_gun3
+    4300282: Blarg_Battleship1:Under_gun2
+    4300284: Blarg_Battleship1:Under_gun1
+    4300286: Blarg_Battleship1:Under_gun4
+    4300288: Blarg_Battleship1:Under_gun5
+    4300290: Blarg_Battleship1:Under_gun6
+    4300292: Blarg_Battleship1:Gear1
+    4300294: Blarg_Battleship1:Mech_3
+    4300296: Blarg_Battleship1:Gun1
+    4300298: base
+    4300300: Blarg_Battleship1:ship_fin_R4
+    4300302: Blarg_Battleship1:ship_fin_R5
+    4300304: Blarg_Battleship1:wing_bulge3
+    4300306: Blarg_Battleship1:wing_thing3
+    4300308: Blarg_Battleship1:wing_bulge2
+    4300310: Blarg_Battleship1:wing_thing2
+    4300312: Blarg_Battleship1:s_mech_button_plane1
+    4300314: Blarg_Battleship1:Side_mech_button1
+    4300316: Blarg_Battleship1:Main_build1
+    4300318: hover_light
+    4300320: Blarg_Battleship1:wing_bulge1
+    4300322: Blarg_Battleship1:wing_thing6
+    4300324: Blarg_Battleship1:wing_bulge5
+    4300326: Blarg_Battleship1:wing_thing5
+    4300328: missile
+    4300330: Blarg_Battleship1:Mech_2
+    4300332: Blarg_Battleship1:Gear2
+    4300334: Blarg_Battleship1:Gun2
+    4300336: Blarg_Battleship1:s_mech_button_plane2
+    4300338: Blarg_Battleship1:Side_mech_button2
+    4300340: Blarg_Battleship1:Main_build2
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -185,19 +1172,18 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -206,11 +1192,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -220,7 +1205,6 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
