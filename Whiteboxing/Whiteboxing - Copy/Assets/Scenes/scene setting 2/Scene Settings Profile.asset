@@ -19,6 +19,48 @@ MonoBehaviour:
   - {fileID: 114107728489611338}
   - {fileID: 114765617470312768}
   - {fileID: 114784742140397920}
+  - {fileID: 114281948695180082}
+  - {fileID: 114017607100677134}
+  - {fileID: 114256116172820760}
+--- !u!114 &114017607100677134
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384c4d03a551c44448145f4093304119, type: 3}
+  m_Name: ScreenSpaceReflection
+  m_EditorClassIdentifier: 
+  active: 1
+  depthBufferThickness:
+    m_OverrideState: 1
+    m_Value: 0.01
+    min: 0
+    max: 1
+  screenFadeDistance:
+    m_OverrideState: 1
+    m_Value: 0.1
+    min: 0
+    max: 1
+  minSmoothness:
+    m_OverrideState: 1
+    m_Value: 0.9
+    min: 0
+    max: 1
+  smoothnessFadeStart:
+    m_OverrideState: 1
+    m_Value: 0.9
+    min: 0
+    max: 1
+  reflectSky:
+    m_OverrideState: 1
+    m_Value: 1
+  rayMaxIterations:
+    m_OverrideState: 1
+    m_Value: 32
 --- !u!114 &114086735879846340
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -128,6 +170,49 @@ MonoBehaviour:
     m_Value: 0.2
     min: 0
     max: 1
+--- !u!114 &114256116172820760
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f034cba68ab55e046ae1445a42f18c0e, type: 3}
+  m_Name: IndirectLightingController
+  m_EditorClassIdentifier: 
+  active: 1
+  indirectSpecularIntensity:
+    m_OverrideState: 1
+    m_Value: 15.13
+    min: 0
+  indirectDiffuseIntensity:
+    m_OverrideState: 1
+    m_Value: 1.88
+    min: 0
+--- !u!114 &114281948695180082
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4910d90e50201484ba448b791a192696, type: 3}
+  m_Name: VolumetricLightingController
+  m_EditorClassIdentifier: 
+  active: 1
+  depthExtent:
+    m_OverrideState: 1
+    m_Value: 132.3
+    min: 0.1
+  sliceDistributionUniformity:
+    m_OverrideState: 1
+    m_Value: 0.75
+    min: 0
+    max: 1
 --- !u!114 &114765617470312768
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -217,7 +302,7 @@ MonoBehaviour:
   active: 1
   rotation:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.09
     min: 0
     max: 360
   skyIntensityMode:
@@ -225,7 +310,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.85
   multiplier:
     m_OverrideState: 1
     m_Value: 1
@@ -242,7 +327,7 @@ MonoBehaviour:
     m_Value: 0
   updatePeriod:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1.83
     min: 0
   includeSunInBaking:
     m_OverrideState: 1
