@@ -14,7 +14,7 @@
                 "Parallax Occlusion Mapping": {
                     "maxPOMSamples": 16,
                     "minPOMSamples": 4,
-                    "pomStrength": 1,
+                    "pomStrength": 10,
                     "usePOM": false
                 }
             },
